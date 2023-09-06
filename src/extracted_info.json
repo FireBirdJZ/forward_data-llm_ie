@@ -1,0 +1,12 @@
+{
+    "professor": "vadve",
+    "information": "{\n  \"Name\": \"Vikram Adve\",\n  \"Education\": \"Ph.D. in Computer Science from University of Wisconsin-Madison, 1993\",\n  \"Research Interests\": \"Architecture, Compilers, and Parallel Computing\\nProgramming Languages / Formal Methods / Software Engineering\\nSecurity and Privacy\",\n  \"Email\": \"vadve@illinois.edu\",\n  \"Position\": \"Donald B. Gillies Professor in Computer Science\",\n  \"Office\": \"4235 Siebel Center for Comp Sci\",\n  \"Website\": \"Vikram Adve's home page\",\n  \"Courses Taught\": [\n    \"CS 426 - Compiler Construction\",\n    \"CS 526 - Advanced Compiler Construction\",\n    \"CS 591 ACT - Advanced Compiler Technology\",\n    \"CS 597 VSA - Individual Study\",\n    \"CS 598 LCE - Lang & Compilers for Edge Comp\"\n  ]\n}"
+}
+{
+    "professor": "jeffe",
+    "information": "{\n  \"name\": \"Jeff Erickson\",\n  \"education\": [\n    \"Ph.D., Computer Science, University of California, Berkeley, July 1996\",\n    \"M.S., Information and Computer Science, University of California, Irvine, June 1992\",\n    \"B.A., Computer Science and Mathematical Sciences (double major), Rice University, May 1987\"\n  ],\n  \"email\": \"jeffe@illinois.edu\",\n  \"researchInterests\": [\n    \"Algorithms, data structures, and lower bounds\",\n    \"Computational and discrete geometry and topology\",\n    \"Computer science education\"\n  ]\n}"
+}
+{
+    "professor": "kcchang",
+    "information": "{\n  \"name\": \"Kevin Chenchuan Chang\",\n  \"education\": \"Ph.D. Electrial Engineering, Stanford University, 2001\",\n  \"researchInterests\": \"Natural language processing, data mining, data management, and information retrieval with machine learning techniques, with emphasis on the application areas of Web and social media-based knowledge acquisition and organization across structured and unstructured data.\",\n  \"email\": \"kcchang@illinois.edu\"\n}"
+}
