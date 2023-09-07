@@ -11,7 +11,6 @@ with open(config_file_path, "r") as config_file:
     config = json.load(config_file)
     openai.api_key = config["api_key"]
 
-
 def ExtractAndAppendToJSON(url, output_file):
     """
     Extracts information from a webpage and appends it to a JSON file.
@@ -44,18 +43,20 @@ def ExtractAndAppendToJSON(url, output_file):
     # Create a dictionary to store the extracted information
     extracted_info = {
         "professor": url.split("/")[-1],  # Extract professor name from URL
-        "information": chatbot_response
+        "information": json.loads(chatbot_response)  # Convert JSON string to dictionary
     }
 
-    # Append the extracted information to the JSON file
+    # Append the extracted information to the JSON file with indentation
     with open(output_file, "a") as json_file:
-        json.dump(extracted_info, json_file, indent=4)
+        json.dump(extracted_info, json_file, indent=4)  # Add indentation for readability
         json_file.write("\n")  # Add a newline to separate entries
 
     print(f"Information appended to {output_file}")
 
 # Example usage:
-profs = ["jeffe", "vadve", "kcchang"]
-url = f"https://cs.illinois.edu/about/people/faculty/{profs[2]}"
+cs_profs = ["jeffe", "vadve", "kcchang"]
+#url = f"https://cs.illinois.edu/about/people/faculty/{cs_profs[2]}"
+chem_profs = ["mikaelb", "mdburke", "ggirolam"]
+url = f"https://chemistry.illinois.edu/{chem_profs[2]}"
 output_file = "extracted_info.json"
 ExtractAndAppendToJSON(url, output_file)
