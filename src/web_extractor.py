@@ -3,7 +3,9 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 import re
 
-def ExtractTextFromWebpage(url):
+import trafilatura
+
+def ExtractTextFromWebpage(url: str) -> str:
     """
     Extract all text content from a webpage.
 
@@ -29,12 +31,20 @@ def ExtractTextFromWebpage(url):
     except Exception as e:
         return str(e)
 
+
+def ExtractTextFromWebpageTraf(url: str) -> str:
+    downloaded = trafilatura.fetch_url(url)
+    page_text = trafilatura.extract(downloaded)
+    cleaned_text = re.sub(r'\s+', ' ', page_text)
+    return cleaned_text.strip() # Remove leading/trailing whitespace
+
+# For Testing ExtractTextFromWebpage and ExtractTextFromWebpageTraf
 if __name__ == "__main__":
     # Example usage
     webpage_url = "https://cs.illinois.edu/about/people/faculty/jeffe"
     
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        future = executor.submit(ExtractTextFromWebpage, webpage_url)
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        future = executor.submit(ExtractTextFromWebpageTraf, webpage_url)
         result = future.result()
 
     if result:

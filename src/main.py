@@ -1,6 +1,7 @@
 import os
 import openai
 import json
+from concurrent.futures import ThreadPoolExecutor
 
 import web_extractor
 
@@ -53,10 +54,25 @@ def ExtractAndAppendToJSON(url, output_file):
 
     print(f"Information appended to {output_file}")
 
-# Example usage:
-cs_profs = ["jeffe", "vadve", "kcchang"]
-#url = f"https://cs.illinois.edu/about/people/faculty/{cs_profs[2]}"
-chem_profs = ["mikaelb", "mdburke", "ggirolam"]
-url = f"https://chemistry.illinois.edu/{chem_profs[2]}"
-output_file = "extracted_info.json"
-ExtractAndAppendToJSON(url, output_file)
+
+# For Testing ExtractTextFromWebpage and ExtractTextFromWebpageTraf
+if __name__ == "__main__":
+
+    # Example usage:
+    cs_profs = ["jeffe", "vadve", "kcchang"]
+    #url = f"https://cs.illinois.edu/about/people/faculty/{cs_profs[2]}"
+    #chem_profs = ["mikaelb", "mdburke", "ggirolam"]
+    #url = f"https://chemistry.illinois.edu/{chem_profs[2]}"
+    output_file = "extracted_info.json"
+
+
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        for prof in cs_profs:
+            url = f"https://cs.illinois.edu/about/people/faculty/{prof}"
+            future = executor.submit(ExtractAndAppendToJSON, url, output_file)
+            result = future.result()
+
+        # if result:
+        #     print(result)
+        # else:
+        #     print("Failed to Extract infromation and append to Json file.")
