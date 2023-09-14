@@ -131,3 +131,357 @@
         "Phone": "(217) 333-2729"
     }
 }
+{
+    "professor": "ggirolam",
+    "information": {
+        "Name": "Professor Girolami",
+        "Email": "girolami@illinois.edu",
+        "Education": "B.S. degrees in chemistry and physics from the University of Texas at Austin, Ph.D. degree from the University of California at Berkeley",
+        "Research Interests": "synthesis of transition metal complexes and their use as catalysts, as precursors for the chemical vapor deposition of thin films, and as building blocks for novel magnetic materials; metal-organic chemical vapor deposition; organometallic chemistry and catalysis; synthesis of new molecular magnets",
+        "Additional Campus Affiliations": "Janet and William H. Lycan Professor, School of Chemical Sciences, Professor, Beckman Institute for Advanced Science and Technology",
+        "Office Address": {
+            "Building": "A526 CLSL, Box 4-6",
+            "Street": "600 South Mathews Avenue",
+            "City": "Urbana",
+            "State": "IL",
+            "Zip": "61801"
+        }
+    }
+}
+{
+    "professor": "ggirolam",
+    "information": {
+        "Education": "B.S. degrees in chemistry and physics from the University of Texas at Austin, Ph.D. degree from the University of California at Berkeley",
+        "Research Interests": "synthesis of transition metal complexes and their use as catalysts, as precursors for the chemical vapor deposition of thin films, and as building blocks for novel magnetic materials; metal-organic chemical vapor deposition; organometallic chemistry and catalysis; synthesis of new molecular magnets",
+        "Email": "girolami@illinois.edu"
+    }
+}
+{
+    "professor": "jeffe",
+    "information": {
+        "name": "Jeff Erickson",
+        "education": [
+            {
+                "degree": "Ph.D.",
+                "field": "Computer Science",
+                "university": "University of California, Berkeley",
+                "year": "July 1996"
+            },
+            {
+                "degree": "M.S.",
+                "field": "Information and Computer Science",
+                "university": "University of California, Irvine",
+                "year": "June 1992"
+            },
+            {
+                "degree": "B.A.",
+                "field": "Computer Science and Mathematical Sciences",
+                "university": "Rice University",
+                "year": "May 1987"
+            }
+        ],
+        "researchInterests": [
+            "Algorithms, data structures, and lower bounds",
+            "Computational and discrete geometry and topology",
+            "Computer science education"
+        ],
+        "email": "",
+        "otherInformation": "I have been a faculty member in the Department of Computer Science since 1998 and a full professor since 2010; I was named a Sohaib and Sara Abbasi Professor in 2020. I have published over 100 technical papers in computational geometry, computational topology, graph algorithms, and related topics at the intersection of computer science and mathematics. Among many other conference committee memberships, I was the chair of the community-elected steering committee for the International Symposium on Computational Geometry (SOCG) from 2013 to 2016, and I am currently a SafeTOC (anti-harassment) advocate for SOCG and for the ACM-SIAM Symposium on Discrete Algorithms (SODA). I primarily teach large algorithms classes; my free Algorithms textbook is used in dozens of computer science departments and by myriads of students, recruiters, and professionals around the world. I have been an Education Innovation Fellow in the Grainger College of Engineering's Academy of Excellence in Engineering Education. More than half of my former PhD students have tenure, almost half have won NSF CAREER awards, and my grand-students outnumber my students. My own awards include a Sloan Research Fellowship, an NSF CAREER award, and numerous teaching and research awards from the University of Illinois.",
+        "academicPositions": [
+            {
+                "position": "Sohaib and Sara Abbasi Professor",
+                "university": "University of Illinois at Urbana-Champaign",
+                "year": "2020-present"
+            },
+            {
+                "position": "Professor",
+                "university": "University of Illinois at Urbana-Champaign",
+                "year": "2010-present"
+            },
+            {
+                "position": "Associate Professor (tenured)",
+                "university": "University of Illinois at Urbana-Champaign",
+                "year": "2004-2010"
+            },
+            {
+                "position": "Assistant Professor",
+                "university": "University of Illinois at Urbana-Champaign",
+                "year": "1998-2004"
+            }
+        ]
+    }
+}
+{
+    "professor": "vadve",
+    "information": {
+        "Name": "Vikram Adve",
+        "Education": "Ph.D. in Computer Science from University of Wisconsin-Madison, 1993",
+        "Email": "",
+        "Research Interests": "",
+        "Important Information": "Donald B. Gillies Professor in Computer Science, (217) 244-2016, 4235 Siebel Center for Comp Sci"
+    }
+}
+{
+    "professor": "ggirolam",
+    "information": {
+        "name": "Gregory S. Girolami",
+        "education": "B.S. degrees in chemistry and physics from the University of Texas at Austin, Ph.D. degree from the University of California at Berkeley",
+        "email": "ggirolam@illinois.edu",
+        "researchInterests": "synthesis of transition metal complexes and their use as catalysts, as precursors for the chemical vapor deposition of thin films, and as building blocks for novel magnetic materials; metal-organic chemical vapor deposition; organometallic chemistry and catalysis; synthesis of new molecular magnets"
+    }
+}
+{
+    "professor": "jeffe",
+    "information": {
+        "Name": "Jeff Erickson",
+        "Education": [
+            {
+                "Degree": "Ph.D.",
+                "Field": "Computer Science",
+                "University": "University of California, Berkeley",
+                "Year": "1996"
+            },
+            {
+                "Degree": "M.S.",
+                "Field": "Information and Computer Science",
+                "University": "University of California, Irvine",
+                "Year": "1992"
+            },
+            {
+                "Degree": "B.A.",
+                "Field": "Computer Science and Mathematical Sciences",
+                "University": "Rice University",
+                "Year": "1987"
+            }
+        ],
+        "Research Interests": [
+            "Algorithms",
+            "data structures",
+            "and lower bounds",
+            "Computational and discrete geometry and topology",
+            "Computer science education"
+        ],
+        "Email": "jeffe@illinois.edu"
+    }
+}
+{
+    "professor": "vadve",
+    "information": {
+        "Name": "Vikram Adve",
+        "Education": "Ph.D. in Computer Science from University of Wisconsin-Madison, 1993",
+        "Research Interests": [
+            "Architecture, Compilers, and Parallel Computing",
+            "Programming Languages / Formal Methods / Software Engineering",
+            "Security and Privacy"
+        ],
+        "Email": "vadve@illinois.edu",
+        "Position": "Donald B. Gillies Professor in Computer Science",
+        "Phone": "(217) 244-2016",
+        "Website": "https://cs.illinois.edu/directory/profile/vadve",
+        "Address": "4235 Siebel Center for Comp Sci",
+        "Affiliation": "University of Illinois at Urbana-Champaign"
+    }
+}
+{
+    "professor": "kcchang",
+    "information": {
+        "Name": "Kevin Chenchuan Chang",
+        "Education": "Ph.D. Electrial Engineering, Stanford University, 2001",
+        "Research Interests": "Natural language processing, data mining, data management, and information retrieval with machine learning techniques, with emphasis on the application areas of Web and social media-based knowledge acquisition and organization across structured and unstructured data.",
+        "Email": "kcchang@illinois.edu"
+    }
+}
+{
+    "professor": "jeffe",
+    "information": {
+        "Name": "Jeff Erickson",
+        "Education": "Ph.D., Computer Science, University of California, Berkeley, July 1996\nM.S., Information and Computer Science, University of California, Irvine, June 1992\nB.A., Computer Science and Mathematical Sciences (double major), Rice University, May 1987",
+        "Research Interests": "Algorithms, data structures, and lower bounds\nComputational and discrete geometry and topology\nComputer science education",
+        "Email": "jeffe@illinois.edu",
+        "Academic Positions": [
+            {
+                "Position": "Sohaib and Sara Abbasi Professor, University of Illinois at Urbana-Champaign",
+                "Years": "2020-present"
+            },
+            {
+                "Position": "Professor, University of Illinois at Urbana-Champaign",
+                "Years": "2010-present"
+            },
+            {
+                "Position": "Associate Professor (tenured), University of Illinois at Urbana-Champaign",
+                "Years": "2004-2010"
+            },
+            {
+                "Position": "Assistant Professor, University of Illinois at Urbana-Champaign",
+                "Years": "1998-2004"
+            }
+        ]
+    }
+}
+{
+    "professor": "jeffe",
+    "information": {
+        "Name": "Jeff Erickson",
+        "Education": [
+            {
+                "Degree": "Ph.D.",
+                "Field": "Computer Science",
+                "University": "University of California, Berkeley",
+                "Year": "July 1996"
+            },
+            {
+                "Degree": "M.S.",
+                "Field": "Information and Computer Science",
+                "University": "University of California, Irvine",
+                "Year": "June 1992"
+            },
+            {
+                "Degree": "B.A.",
+                "Field": "Computer Science and Mathematical Sciences",
+                "University": "Rice University",
+                "Year": "May 1987"
+            }
+        ],
+        "Research Interests": [
+            "Algorithms, data structures, and lower bounds",
+            "Computational and discrete geometry and topology",
+            "Computer science education"
+        ],
+        "Email": "jeffe@illinois.edu"
+    }
+}
+{
+    "professor": "vadve",
+    "information": {
+        "Name": "Vikram Adve",
+        "Title": "Donald B. Gillies Professor in Computer Science",
+        "Phone": "(217) 244-2016",
+        "Address": "4235 Siebel Center for Comp Sci",
+        "Email": "",
+        "Education": [
+            {
+                "Degree": "Ph.D. in Computer Science",
+                "University": "University of Wisconsin-Madison",
+                "Year": "1993"
+            }
+        ],
+        "Research Interests": [
+            "Secure Virtual Architecture",
+            "Automatic Pool Allocation",
+            "LLVM: A Compilation Framework"
+        ],
+        "Articles in Conference Proceedings": [
+            {
+                "Title": "Secure Virtual Architecture: A Safe Execution Environment For Commodity Operating Systems",
+                "Conference": "21st ACM Symposium on Operating Systems Principles 2007(SOSP'07)",
+                "Pages": "351-366",
+                "Location": "Stevenson, WA",
+                "Year": "October 2007",
+                "Awards": [
+                    "Audience Choice Paper Award"
+                ],
+                "Acceptance Rate": "19%"
+            },
+            {
+                "Title": "Automatic Pool Allocation: Improving Performance by Controlling Data Structure Layout in the Heap",
+                "Conference": "2005 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'05)",
+                "Pages": "129-142",
+                "Location": "Chicago, Illinois",
+                "Year": "June 2005",
+                "Awards": [
+                    "Best Paper Award"
+                ]
+            },
+            {
+                "Title": "LLVM: A Compilation Framework for Lifelong Program Analysis and Transformation",
+                "Conference": "2004 International Symposium on Code Generation and Optimization (CGO)",
+                "Pages": "75-88",
+                "Location": "Palo Alto, CA",
+                "Year": "Mar. 2004",
+                "Awards": [
+                    "Selected as Most Influential Paper of CGO 2004"
+                ],
+                "Acceptance Rate": "31.6%"
+            }
+        ],
+        "Research Honors": [
+            {
+                "Title": "NSF CAREER Award",
+                "Amount": "$499,211",
+                "Year": "Sept. 2001"
+            },
+            {
+                "Title": "C. W. Gear Outstanding Junior Faculty Award",
+                "Department": "Computer Science Dept., UIUC",
+                "Year": "April 2002"
+            },
+            {
+                "Title": "ACM Software System Award",
+                "Year": "2012"
+            },
+            {
+                "Title": "Fellow of the Association for Computing Machinery (ACM)",
+                "Year": "2014"
+            }
+        ],
+        "Public Service Honors": [
+            {
+                "Title": "Program Chair",
+                "Conference": "15th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '10)",
+                "Year": "2010"
+            },
+            {
+                "Title": "Program Co-Chair",
+                "Conference": "Third International ACM SIGPLAN/SIGOPS Conference on Virtual Execution Environments (VEE)",
+                "Year": "2008"
+            },
+            {
+                "Title": "Associate Editor",
+                "Journal": "ACM Transactions on Programming Languages and Systems (TOPLAS)",
+                "Time Period": "June 2003-October 2007"
+            }
+        ],
+        "Recent Courses Taught": [
+            "CS 426 - Compiler Construction",
+            "CS 526 - Advanced Compiler Construction",
+            "CS 591 ACT - Advanced Compiler Technology",
+            "CS 597 VSA - Individual Study",
+            "CS 598 LCE - Lang & Compilers for Edge Comp"
+        ]
+    }
+}
+{
+    "professor": "jeffe",
+    "information": {
+        "name": "Jeff Erickson",
+        "department": "Computer Science",
+        "university": "University of Illinois at Urbana-Champaign",
+        "email": "jeffe@illinois.edu",
+        "education": [
+            {
+                "degree": "Ph.D.",
+                "field": "Computer Science",
+                "university": "University of California, Berkeley",
+                "year": "July 1996"
+            },
+            {
+                "degree": "M.S.",
+                "field": "Information and Computer Science",
+                "university": "University of California, Irvine",
+                "year": "June 1992"
+            },
+            {
+                "degree": "B.A.",
+                "field": "Computer Science and Mathematical Sciences",
+                "university": "Rice University",
+                "year": "May 1987"
+            }
+        ],
+        "researchInterests": [
+            "Algorithms",
+            "data structures, and lower bounds",
+            "Computational and discrete geometry and topology",
+            "Computer science education"
+        ]
+    }
+}
