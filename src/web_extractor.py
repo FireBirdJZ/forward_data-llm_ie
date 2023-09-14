@@ -25,9 +25,9 @@ def ExtractTextFromWebpage(url: str) -> str:
         page_text = soup.get_text()
 
         # Remove extra whitespace using regular expressions
-        cleaned_text = re.sub(r'\s+', ' ', page_text)
-
-        return cleaned_text.strip()  # Remove leading/trailing whitespace
+        cleaned_text = re.sub(r'\s+', ' ', page_text).strip()
+        ## Hack if text webpage is longer than 4000 tokens, Need to come up with better solution later
+        return cleaned_text[:4000]
     except Exception as e:
         return str(e)
 
@@ -41,10 +41,12 @@ def ExtractTextFromWebpageTraf(url: str) -> str:
 # For Testing ExtractTextFromWebpage and ExtractTextFromWebpageTraf
 if __name__ == "__main__":
     # Example usage
-    webpage_url = "https://cs.illinois.edu/about/people/faculty/jeffe"
+    professor_url = "https://cs.illinois.edu/about/people/faculty/jeffe"
     
+    shopify_url = "https://www.shopify.com/blog/ecommerce-seo-beginners-guide"
+
     with ThreadPoolExecutor(max_workers=4) as executor:
-        future = executor.submit(ExtractTextFromWebpageTraf, webpage_url)
+        future = executor.submit(ExtractTextFromWebpage, shopify_url)
         result = future.result()
 
     if result:

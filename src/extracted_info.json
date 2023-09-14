@@ -450,3 +450,38 @@
         ]
     }
 }
+{
+    "professor": "jeffe",
+    "information": {
+        "name": "Jeff Erickson",
+        "department": "Computer Science",
+        "university": "University of Illinois at Urbana-Champaign",
+        "email": "jeffe@illinois.edu",
+        "education": [
+            {
+                "degree": "Ph.D.",
+                "field": "Computer Science",
+                "university": "University of California, Berkeley",
+                "year": "July 1996"
+            },
+            {
+                "degree": "M.S.",
+                "field": "Information and Computer Science",
+                "university": "University of California, Irvine",
+                "year": "June 1992"
+            },
+            {
+                "degree": "B.A.",
+                "field": "Computer Science and Mathematical Sciences",
+                "university": "Rice University",
+                "year": "May 1987"
+            }
+        ],
+        "researchInterests": [
+            "Algorithms",
+            "data structures, and lower bounds",
+            "Computational and discrete geometry and topology",
+            "Computer science education"
+        ]
+    }
+}
