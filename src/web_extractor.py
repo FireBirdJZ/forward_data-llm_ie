@@ -27,7 +27,7 @@ def ExtractTextFromWebpage(url: str) -> str:
         # Remove extra whitespace using regular expressions
         cleaned_text = re.sub(r'\s+', ' ', page_text).strip()
         ## Hack if text webpage is longer than 4000 tokens, Need to come up with better solution later
-        return cleaned_text[:4000]
+        return cleaned_text
     except Exception as e:
         return str(e)
 
