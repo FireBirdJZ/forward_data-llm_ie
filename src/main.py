@@ -3,7 +3,11 @@ import openai
 import json
 from concurrent.futures import ThreadPoolExecutor
 
-import web_extractor
+import sys
+sys.path.append('/Users/jasonz/forward_data_lab_llmie/forward_data-llm_ie/')
+from src import web_extractor
+
+#import web_extractor
 
 # Specify the path to config.json (adjust the path as needed)
 config_file_path = '/Users/jasonz/forward_data_lab_llmie/forward_data-llm_ie/config.json'
