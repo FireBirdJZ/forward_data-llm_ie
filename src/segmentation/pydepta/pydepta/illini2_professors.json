@@ -1,0 +1,496 @@
+[
+    {
+        "name": "Maria Jesus Garzaran",
+        "position": "Adjunct Research Associate Professor",
+        "research_interests": ""
+    },
+    {
+        "professorName": "Craig Zilles",
+        "position": "Professor and Severns Faculty Scholar",
+        "researchInterests": "null"
+    },
+    {
+        "ProfessorName": "Lawrence Rauchwerger",
+        "Position": "Professor",
+        "ResearchInterests": "he/him/his"
+    },
+    {
+        "professor_name": "Lui Sha",
+        "position": "Donald B. Gillies Chair in Computer Science",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ryan Matthew Cunningham",
+        "position": "Lecturer",
+        "research interests": ""
+    },
+    {
+        "name": "Gene E. Robinson",
+        "position": "Director, Institute for Genomic Biology",
+        "research interests": "unknown"
+    },
+    {
+        "name": "Christopher Wardlaw Fletcher",
+        "position": "Fleck Teaching Professor and Director of Undergraduate Programs",
+        "research_interests": "null"
+    },
+    {
+        "name": "Roxana Girju",
+        "position": "Professor, Linguistics",
+        "research_interests": "null"
+    },
+    {
+        "name": "Andreas Paul Eberhard Kloeckner",
+        "position": "Associate Professor",
+        "research interests": "N/A"
+    },
+    {
+        "name": "Makrand SINHA",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Robert D. Skeel",
+        "position": "Professor Emeritus",
+        "research_interests": ""
+    },
+    {
+        "Professor's Name": "Sarah Gimbert Sterman",
+        "Position": "Reseach Assistant Professor",
+        "Research Interests": "null"
+    },
+    {
+        "faculty_name": "Willett And nobody else!",
+        "faculty_position": "Professor and Willett Faculty Scholar",
+        "research_interests": "null"
+    },
+    {
+        "professorName": "Marianne S. Winslett",
+        "position": "Teaching Professor and Director of Onramp Programs",
+        "researchInterests": "null"
+    },
+    {
+        "professor_name": "Marco Morales Aguirre",
+        "position": "Teaching Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Kirill Levchenko",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Aishwarya Ganesan",
+        "position": "H. George Friedman Professor Emeritus",
+        "research_interests": "null"
+    },
+    {
+        "professor": {
+            "name": "Sheldon Howard Jacobson",
+            "position": "Founder Professor in Engineering",
+            "researchInterests": ""
+        }
+    },
+    {
+        "professorName": "Jane W.-S. Liu",
+        "position": "Professor Emerita",
+        "researchInterests": ""
+    },
+    {
+        "professorName": "Mattox Alan Beckman",
+        "position": "Teaching Associate Professor",
+        "researchInterests": "null"
+    },
+    {
+        "professor_name": "Wendy K Tam",
+        "position": "Cho Professor",
+        "research_interests": ""
+    },
+    {
+        "Professor Name": "Michael Faiman",
+        "Position": "Professor Emeritus",
+        "Research Interests": "Unavailable"
+    },
+    {
+        "professor_name": "Nancy M. Amato",
+        "position": "Abel Bliss Professor of Engineering",
+        "research_interests": []
+    },
+    {
+        "professor": {
+            "name": "Gagandeep Singh",
+            "position": "Teaching Associate Professor and Education Innovation Fellow",
+            "research_interests": null
+        }
+    },
+    {
+        "name": "Livingston McPherson",
+        "position": "Teaching Assistant Professor (starting August 2024)",
+        "researchInterests": "null"
+    },
+    {
+        "name": "Leonard B. Pitt",
+        "position": "Professor Emeritus",
+        "research interests": ""
+    },
+    {
+        "name": "Geir Dullerud",
+        "position": "Professor, Mechanical Science and Engineering",
+        "research_interests": "null"
+    },
+    {
+        "Professor's Name": "Charith Mendis",
+        "Position": "Assistant Professor",
+        "Research Interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor",
+        "researchInterests": ""
+    },
+    {
+        "Professor's Name": "Timothy Bretl",
+        "Position": "Professor, Aerospace Engineering",
+        "Research Interests": "null"
+    },
+    {
+        "Professor's Name": "Bill Gropp",
+        "Position": "Grainger Distinguished Chair",
+        "Research Interests": "null"
+    },
+    {
+        "professorName": "Vikram Adve",
+        "position": "Donald B. Gillies Professor in Computer Science",
+        "researchInterests": "null"
+    },
+    {
+        "name": "Wade A. Fagen-Ulmschneider",
+        "position": "Teaching Professor",
+        "research_interests": "null"
+    },
+    {
+        "professor": {
+            "name": "Gerald F. DeJong, II",
+            "position": "Professor Emeritus",
+            "research_interests": "null"
+        }
+    },
+    {
+        "name": "Mark A. Anastasio",
+        "position": "Adjunct Research Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "Professor's name": "Margaret M. Fleck",
+        "Position": "Teaching Professor and Director of Undergraduate",
+        "Research interests": null
+    },
+    {
+        "name": "Donald Biggar Willett",
+        "position": "Professor Emeritus",
+        "research_interests": ""
+    },
+    {
+        "name": "Camille Cobb",
+        "position": "Assistant Professor",
+        "research_interests": ""
+    },
+    {
+        "name": "Abdussalam Alawini",
+        "position": "Teaching Associate Professor",
+        "research_interests": []
+    },
+    {
+        "name": "Tal August",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Chandra Sekhar Chekuri",
+        "position": "Professor",
+        "research interests": "unknown"
+    },
+    {
+        "Professor Name": "Svetlana Lazebnik",
+        "Position": "Professor",
+        "Research Interests": "Willett Faculty Scholar, and DGS Kirill Levchenko"
+    },
+    {
+        "faculty": [
+            {
+                "name": "Lav R. Varshney",
+                "position": "Associate Professor",
+                "research_interests": "Electrical and Computer Engineering"
+            }
+        ]
+    },
+    {
+        "Professor Name": "Talia Ringer",
+        "Position": "Assistant Professor",
+        "Research Interests": "they/them/theirs"
+    },
+    {
+        "name": "Sara Abbasi",
+        "position": "Professor and Willett Faculty Scholar",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Joseph Woodley",
+        "position": "Clinical Assistant Professor",
+        "research interests": "null"
+    },
+    {
+        "Professor's Name": "Colleen M. Lewis",
+        "Position": "Associate Professor",
+        "Research Interests": "Electrical and Computer Engineering"
+    },
+    {
+        "name": "Ruby Tahboub",
+        "position": "Assistant Professor",
+        "research interests": "Unknown"
+    },
+    {
+        "name": "Gul A. Agha",
+        "position": "Research Professor and Professor Emeritus",
+        "research_interests": "null"
+    },
+    {
+        "professorName": "Brighten Godfrey",
+        "position": "Professor",
+        "researchInterests": "null"
+    },
+    {
+        "professorName": "Karrie Karahalios",
+        "position": "Professor",
+        "researchInterests": "null"
+    },
+    {
+        "Professor": {
+            "Name": "Han Zhao",
+            "Position": "Assistant Professor",
+            "Research Interests": "null"
+        }
+    },
+    {
+        "professor": {
+            "name": "Cho",
+            "position": "null",
+            "research_interests": "null"
+        }
+    },
+    {
+        "name": "Maria Jesus Garzaran",
+        "position": "Adjunct Research Associate Professor",
+        "research_interests": "Unknown"
+    },
+    {
+        "name": "Tiffani L. Williams",
+        "position": "Associate Head for Research and Faculty Development",
+        "research_interests": "Teaching Professor and Director of Onramp"
+    },
+    {
+        "name": "Carl Evans",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Alexander Schwing",
+        "position": "Associate Professor, Electrical and Computer Engineering",
+        "research interests": null
+    },
+    {
+        "professor's name": "David Forsyth",
+        "position": "Fulton Watson Copp Chair in Computer Science",
+        "research interests": "null"
+    },
+    {
+        "name": "Donald Biggar",
+        "position": "Willett Professor Emeritus in Electrical and Computer",
+        "research interests": ""
+    },
+    {
+        "professorName": "Abigail Wooldridge",
+        "position": "Assistant Professor",
+        "researchInterests": "Industrial and Enterprise Systems Engineering"
+    },
+    {
+        "name": "Colleen M. Lewis",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Julia Hockenmaier",
+        "position": "Professor",
+        "research_interests": "Willett Faculty Scholar Derek W."
+    },
+    {
+        "professor": {
+            "name": "Abel Bliss",
+            "position": "Professor of Engineering and Department Head",
+            "research interests": "Engineering"
+        }
+    },
+    {
+        "Professor Name": "Timothy Moon-Yew Chan",
+        "Position": "Teaching Associate Professor",
+        "Research Interests": "Null"
+    },
+    {
+        "professor_name": "Eric Gene Shaffer",
+        "position": "Teaching Associate Professor and Associate Director",
+        "research_interests": "null"
+    },
+    {
+        "name": "Kenton Guadron McHenry",
+        "position": "Research Assistant Professor",
+        "research interests": "NCSA Livingston McPherson"
+    },
+    {
+        "name": "Shenlong Wang",
+        "position": "Assistant Professor",
+        "research interests": "null"
+    },
+    {
+        "name": "Svetlana Lazebnik",
+        "position": "Professor",
+        "research interests": "Willett Faculty Scholar, and DGS Kirill"
+    },
+    {
+        "faculty": [
+            {
+                "name": "Steven M. LaValle",
+                "position": "Professor",
+                "research_interests": ""
+            }
+        ]
+    },
+    {
+        "name": "Fulton Watson",
+        "position": "Copp Chair in Computer Science",
+        "research interests": "H. George"
+    },
+    {
+        "faculty": [
+            {
+                "name": "Jeff Erickson",
+                "position": "Assistant Professor",
+                "research_interests": null
+            }
+        ]
+    },
+    {
+        "name": "Minh N. Do",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research interests": ""
+    },
+    {
+        "name": "Matus Jan Telgarsky",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "professor_name": "Duncan H. Lawrie",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "faculty": [
+            {
+                "name": "Kevin Chenchuan Chang",
+                "position": "Assistant Professor",
+                "research_interests": "null"
+            }
+        ]
+    },
+    [
+        {
+            "Name": "Suma Bhat",
+            "Position": "Assistant Professor, Electrical and Computer Engineering",
+            "Research Interests": ""
+        }
+    ],
+    {
+        "ProfessorName": "Mark Hasegawa-Johnson",
+        "Position": "Professor",
+        "ResearchInterests": "Electrical and Computer Engineering"
+    },
+    {
+        "professor_name": "Fernando Granha Jeronimo",
+        "position": "Assistant Professor (starting August 2024)",
+        "research_interests": null
+    },
+    {
+        "name": "Benjamin Cosman",
+        "position": "Teaching Assistant Professor",
+        "researchInterests": "null"
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research interests": "null"
+    },
+    {
+        "name": "Steven Lumetta",
+        "position": "Associate Professor",
+        "research interests": "Electrical and Computer Engineering"
+    },
+    {
+        "Professor Name": "Edgar Solomonik",
+        "Position": "Teaching Assistant Professor",
+        "Research Interests": "null"
+    },
+    {
+        "professor_name": "Craig Zilles",
+        "position": "Professor and Severns Faculty Scholar",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael T. Heath",
+        "position": "Professor",
+        "research interests": "Fulton Watson Copp Chair"
+    },
+    {
+        "professorName": "Michael Benjamin Tissenbaum",
+        "position": "Assistant Professor",
+        "researchInterests": ""
+    },
+    {
+        "name": "Lawrence Angrave",
+        "position": "Willett Professor in Engineering Head, Department of Bioengineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Adam Bates",
+        "position": "Associate Professor",
+        "research interests": "null"
+    },
+    {
+        "name": "Ram Alagappan",
+        "position": "Willett Professor Emeritus in Electrical and Computer Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "ChengXiang Zhai",
+        "position": "Donald Biggar Willett Professor in Engineering",
+        "research_interests": "Huan"
+    },
+    {
+        "faculty": [
+            {
+                "name": "David Heath",
+                "position": "Assistant Professor",
+                "research interests": "null"
+            }
+        ]
+    },
+    {
+        "name": "Dilek Hakkani Tur",
+        "position": "Professor",
+        "research_interests": "N/A"
+    },
+    {
+        "name": "H. Chad Lane",
+        "position": "Associate Professor",
+        "researchInterests": "Educational Psychology"
+    }
+]
