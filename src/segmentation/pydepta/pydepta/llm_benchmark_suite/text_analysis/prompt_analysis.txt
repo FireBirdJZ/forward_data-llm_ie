@@ -1,0 +1,114 @@
+Input to analyze:
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/fredo-durand/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Frederic Durand">
+				    <img src="/sites/default/files/person-photos/durand_0.jpg" />
+			</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/fredo-durand/" rel="bookmark">Frederic Durand</a></h5>										
+	<p>Amar Bose Professor of Computing, [AI+D and CS]</p>
+	<ul>
+		    <li><a href="mailto:fredo@mit.edu">fredo@mit.edu</a></li>
+		    <li>(617) 253-7223</li>
+		    <li>Office: 32-D426</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=educational-technology">Educational Technology</a></p><p><a href="?fwp_research=graphics-and-vision">Graphics and Vision</a></p>	</div>
+		
+</div>
+
+
+
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/joel-emer/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Joel Emer">
+				    <img src="/sites/default/files/person-photos/emer_0.jpg" />
+			</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/joel-emer/" rel="bookmark">Joel Emer</a></h5>										
+	<p>Professor of Practice in EECS, [CS and EE]</p>
+	<ul>
+		    <li><a href="mailto:emer@csail.mit.edu">emer@csail.mit.edu</a></li>
+		    <li>(617) 258-9190</li>
+		    <li>Office: 32-868</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=computer-architecture">Computer Architecture</a></p><p><a href="?fwp_research=integrated-circuits-and-systems">Integrated Circuits and Systems</a></p><p><a href="?fwp_research=systems-and-networking">Systems and Networking</a></p>	</div>
+		
+</div>
+
+
+
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/mohsen-ghaffari/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Mohsen Ghaffari">
+		<img width="230" height="230" src="https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-230x230.jpg" class="attachment-people-thumb size-people-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-230x230.jpg 230w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-500x500.jpg 500w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-768x768.jpg 768w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-125x125.jpg 125w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952.jpg 869w" sizes="(max-width: 230px) 100vw, 230px" />	</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/mohsen-ghaffari/" rel="bookmark">Mohsen Ghaffari</a></h5>										
+	<p class="p2">Steven G. (1968) and Renee Finn Career Development Professor, Associate Professor, [CS]</p>
+	<ul>
+		    <li><a href="mailto:ghaffari@mit.edu">ghaffari@mit.edu</a></li>
+		    <li>(617) 253-4591</li>
+		    <li>Office: 32-G618</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=theory-of-computation">Theory of Computation</a></p>	</div>
+		
+</div>
+
+Can you find all the Professors Phone Numbers and the html tag the phone number is inside of in this HTML?
+#@@@@#
+Input to analyze:
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/fredo-durand/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Frederic Durand">
+				    <img src="/sites/default/files/person-photos/durand_0.jpg" />
+			</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/fredo-durand/" rel="bookmark">Frederic Durand</a></h5>										
+	<p>Amar Bose Professor of Computing, [AI+D and CS]</p>
+	<ul>
+		    <li><a href="mailto:fredo@mit.edu">fredo@mit.edu</a></li>
+		    <li>(617) 253-7223</li>
+		    <li>Office: 32-D426</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=educational-technology">Educational Technology</a></p><p><a href="?fwp_research=graphics-and-vision">Graphics and Vision</a></p>	</div>
+		
+</div>
+
+
+
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/joel-emer/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Joel Emer">
+				    <img src="/sites/default/files/person-photos/emer_0.jpg" />
+			</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/joel-emer/" rel="bookmark">Joel Emer</a></h5>										
+	<p>Professor of Practice in EECS, [CS and EE]</p>
+	<ul>
+		    <li><a href="mailto:emer@csail.mit.edu">emer@csail.mit.edu</a></li>
+		    <li>(617) 258-9190</li>
+		    <li>Office: 32-868</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=computer-architecture">Computer Architecture</a></p><p><a href="?fwp_research=integrated-circuits-and-systems">Integrated Circuits and Systems</a></p><p><a href="?fwp_research=systems-and-networking">Systems and Networking</a></p>	</div>
+		
+</div>
+
+
+
+<div class="people-entry small-12 medium-6 large-4 larger-3 cell ">
+<a class="people-index-image" href="https://www.eecs.mit.edu/people/mohsen-ghaffari/" aria-hidden="true" tabindex="-1" rel="bookmark" title="Mohsen Ghaffari">
+		<img width="230" height="230" src="https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-230x230.jpg" class="attachment-people-thumb size-people-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-230x230.jpg 230w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-500x500.jpg 500w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-768x768.jpg 768w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952-125x125.jpg 125w, https://www.eecs.mit.edu/wp-content/uploads/2022/02/Ghaffari-Mohsen-scholar-e1645111644952.jpg 869w" sizes="(max-width: 230px) 100vw, 230px" />	</a>
+			
+	<h5><a href="https://www.eecs.mit.edu/people/mohsen-ghaffari/" rel="bookmark">Mohsen Ghaffari</a></h5>										
+	<p class="p2">Steven G. (1968) and Renee Finn Career Development Professor, Associate Professor, [CS]</p>
+	<ul>
+		    <li><a href="mailto:ghaffari@mit.edu">ghaffari@mit.edu</a></li>
+		    <li>(617) 253-4591</li>
+		    <li>Office: 32-G618</li>
+		</ul>
+		<div class="people-research">
+	<p><a href="?fwp_research=theory-of-computation">Theory of Computation</a></p>	</div>
+		
+</div>
+
+Can you find all the Professors Phone Numbers and the html tag the phone number is inside of in this HTML? This is very important to my Career.
+#@@@@#

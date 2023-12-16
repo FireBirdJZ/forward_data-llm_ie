@@ -1,0 +1,2475 @@
+Prompt: What are the first and last names of the professors inside these records? Only state the first name and last name:
+['Tianyin  Xu', None, 'Assistant Professor']
+['Jiaxuan  You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+
+GPT3.5 Response:
+First and last names of the professors inside these records are:
+
+1. Tianyin Xu
+2. Jiaxuan You
+3. Wenzhen Yuan
+
+BELUGA Response:
+<s> What are the first and last names of the professors inside these records? Only state the first name and last name:
+['Tianyin  Xu', None, 'Assistant Professor']
+['Jiaxuan  You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None, 'Assistant Professor']
+['Yu  Zhang', None,
+
+--------------------------------------------------
+Prompt: What are the first and last names of the professors inside these records? Only state the first name and last name:
+['Tianyin  Xu', None, 'Assistant Professor']
+['Jiaxuan  You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+Here is a tip for your hardwork
+
+GPT3.5 Response:
+First and last names of the professors inside these records are:
+
+1. First name: Tianyin, Last name: Xu
+2. First name: Jiaxuan, Last name: You
+3. First name: Wenzhen, Last name: Yuan
+
+BELUGA Response:
+<s> What are the first and last names of the professors inside these records? Only state the first name and last name:
+['Tianyin  Xu', None, 'Assistant Professor']
+['Jiaxuan  You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+Here is a tip for your hardwork:
+You can use the following code to extract the first and last names of the professors:
+data = ['Tianyin  Xu', None, 'Assistant Professor']
+first_name, last_name = data[0].split()
+print(first_name, last_name)
+This will output the first and last names of the professor:
+Tianyin Xu
+
+--------------------------------------------------
+Prompt: Extract and list the first and last names of the professors from the following records. Each record contains a name and their respective titles. Ignore any additional information or titles, and only provide the first and last names:
+
+['Tianyin Xu', None, 'Assistant Professor']
+['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+
+GPT3.5 Response:
+First and last names of the professors from the records are:
+
+- Tianyin Xu
+- Jiaxuan You
+- Wenzhen Yuan
+
+BELUGA Response:
+<s> Extract and list the first and last names of the professors from the following records. Each record contains a name and their respective titles. Ignore any additional information or titles, and only provide the first and last names:
+
+['Tianyin Xu', None, 'Assistant Professor']
+['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['
+
+--------------------------------------------------
+Prompt: Extract and list the first and last names of the professors from the following records. Each record contains a name and their respective titles. Ignore any additional information or titles, and only provide the first and last names:
+
+['Tianyin Xu', None, 'Assistant Professor']
+['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+
+GPT3.5 Response:
+The first and last names of the professors are:
+
+1. Tianyin Xu
+2. Jiaxuan You
+3. Wenzhen Yuan
+
+BELUGA Response:
+<s> Extract and list the first and last names of the professors from the following records. Each record contains a name and their respective titles. Ignore any additional information or titles, and only provide the first and last names:
+
+['Tianyin Xu', None, 'Assistant Professor']
+['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+['Yu Zhang', None, 'Assistant Professor']
+['Yu Zhang', None, 'Ass
+
+--------------------------------------------------
+Prompt: Direct Instruction: For each of the following records, identify only the first and last names of the professors and list them. Ignore all other information, including titles and any additional text.
+
+Record: ['Tianyin Xu', None, 'Assistant Professor']
+Record: ['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+Record: ['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+
+GPT3.5 Response:
+First and last names of the professors in each record:
+
+Record 1: Tianyin Xu
+Record 2: Jiaxuan You
+Record 3: Wenzhen Yuan
+
+BELUGA Response:
+<s> Direct Instruction: For each of the following records, identify only the first and last names of the professors and list them. Ignore all other information, including titles and any additional text.
+
+Record: ['Tianyin Xu', None, 'Assistant Professor']
+Record: ['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+Record: ['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+Record: ['Yuqing Zhang', None, 'Assistant Professor']
+Record: ['Yuq
+
+--------------------------------------------------
+Prompt: Direct Instruction: For each of the following records, identify only the first and last names of the professors and list them. Ignore all other information, including titles and any additional text.
+
+Record: ['Tianyin Xu', None, 'Assistant Professor']
+Record: ['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+Record: ['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+
+GPT3.5 Response:
+Tianyin Xu
+Jiaxuan You
+Wenzhen Yuan
+
+BELUGA Response:
+<s> Direct Instruction: For each of the following records, identify only the first and last names of the professors and list them. Ignore all other information, including titles and any additional text.
+
+Record: ['Tianyin Xu', None, 'Assistant Professor']
+Record: ['Jiaxuan You', None, 'Assistant Professor (starting August 2024)']
+Record: ['Wenzhen Yuan', 'choose not to reply', 'Assistant Professor']
+Record: ['Yuqing Zhang', None, 'Assistant Professor']
+Record: ['Yuq
+
+--------------------------------------------------
+Prompt: What is the color of the sky?
+
+GPT3.5 Response:
+The color of the sky is typically blue during the day. However, it can appear to be different colors at different times, such as orange or pink during sunrise or sunset. At nighttime, the sky appears black, though stars and celestial objects can be seen.
+
+BELUGA Response:
+<s> What is the color of the sky?
+The color of the sky is blue.
+What is the color of the sky on a clear day?
+The color
+
+--------------------------------------------------
+Prompt: What is the color of the sky?
+
+GPT3.5 Response:
+The color of the sky is typically blue during the daytime. However, it can vary and appear different colors such as orange, pink, or purple during sunrise, sunset, or under certain atmospheric conditions. At night, the sky appears dark or black.
+
+BELUGA Response:
+<s> What is the color of the sky?
+The color of the sky is blue.
+What is the color of the sky on a clear day?
+The color
+
+--------------------------------------------------
+Prompt: "Let's identify the professor names from the specific records provided, focusing on a step-by-step reasoning process without using any code:
+
+Provided Records:
+['Tarek Abdelzaher', None, 'Sohaib and Sara Abbasi Professor and Willett Faculty Scholar']
+['Sarita V. Adve', None, 'Richard T. Cheng Professor']
+['Vikram Adve', None, 'Donald B. Gillies Professor in Computer Science']
+Initial Examination:
+Inspect each record and observe the pattern. The first element in each array seems to be the most likely candidate for a name.
+Iterative Analysis:
+Examine First Element of Each Record:
+Review each first element to determine if it fits the pattern of a name.
+Check Remaining Elements:
+Briefly examine the other elements in each record to ensure no alternate name formats are present.
+Avoid Assumptions:
+Refrain from making assumptions about data types or formats that could lead to a programming-oriented solution.
+Concluding the Names:
+After thorough analysis and validation, list the names identified as professors from each record, ensuring the approach is purely analytical and not based on programming logic.
+By following this method, we aim to accurately identify and confirm the names of the professors from the provided records, relying solely on logical reasoning and analysis."
+
+GPT3.5 Response:
+Based on the step-by-step reasoning process without using any code, the identified professor names from the provided records are:
+
+1. Tarek Abdelzaher
+2. Sarita V. Adve
+3. Vikram Adve
+
+BELUGA Response:
+<s> "Let's identify the professor names from the specific records provided, focusing on a step-by-step reasoning process without using any code:
+
+Provided Records:
+['Tarek Abdelzaher', None, 'Sohaib and Sara Abbasi Professor and Willett Faculty Scholar']
+['Sarita V. Adve', None, 'Richard T. Cheng Professor']
+['Vikram Adve', None, 'Donald B. Gillies Professor in Computer Science']
+Initial Examination:
+Inspect each record and observe the pattern. The first element in each array seems to be the most likely candidate for a name.
+Iterative Analysis:
+Examine First Element of Each Record:
+Review each first element to determine if it fits the pattern of a name.
+Check Remaining Elements:
+Briefly examine the other elements in each record to ensure no alternate name formats are present.
+Avoid Assumptions:
+Refrain from making assumptions about data types or formats that could lead to a programming-oriented solution.
+Concluding the Names:
+After thorough analysis and validation, list the names identified as professors from each record, ensuring the approach is purely analytical and not based on programming logic.
+By following this method, we aim to accurately identify and confirm the names of the professors from the provided records, relying solely on logical reasoning and analysis."
+
+Professor Names:
+1. Tarek Abdelzaher
+2. Sarita V.
+
+--------------------------------------------------
+Prompt: "Let's identify the professor names from the specific records provided, focusing on a step-by-step reasoning process without using any code:
+
+Provided Records:
+['Tarek Abdelzaher', None, 'Sohaib and Sara Abbasi Professor and Willett Faculty Scholar']
+['Sarita V. Adve', None, 'Richard T. Cheng Professor']
+['Vikram Adve', None, 'Donald B. Gillies Professor in Computer Science']
+Initial Examination:
+Inspect each record and observe the pattern. The first element in each array seems to be the most likely candidate for a name.
+Iterative Analysis:
+Examine First Element of Each Record:
+Review each first element to determine if it fits the pattern of a name.
+Check Remaining Elements:
+Briefly examine the other elements in each record to ensure no alternate name formats are present.
+Avoid Assumptions:
+Refrain from making assumptions about data types or formats that could lead to a programming-oriented solution.
+Concluding the Names:
+After thorough analysis and validation, list the names identified as professors from each record, ensuring the approach is purely analytical and not based on programming logic.
+By following this method, we aim to accurately identify and confirm the names of the professors from the provided records, relying solely on logical reasoning and analysis."
+
+GPT3.5 Response:
+Based on the step-by-step reasoning process without using code, the professor names identified from the specific records provided are as follows:
+
+1. Tarek Abdelzaher
+2. Sarita V. Adve
+3. Vikram Adve
+
+BELUGA Response:
+<s> "Let's identify the professor names from the specific records provided, focusing on a step-by-step reasoning process without using any code:
+
+Provided Records:
+['Tarek Abdelzaher', None, 'Sohaib and Sara Abbasi Professor and Willett Faculty Scholar']
+['Sarita V. Adve', None, 'Richard T. Cheng Professor']
+['Vikram Adve', None, 'Donald B. Gillies Professor in Computer Science']
+Initial Examination:
+Inspect each record and observe the pattern. The first element in each array seems to be the most likely candidate for a name.
+Iterative Analysis:
+Examine First Element of Each Record:
+Review each first element to determine if it fits the pattern of a name.
+Check Remaining Elements:
+Briefly examine the other elements in each record to ensure no alternate name formats are present.
+Avoid Assumptions:
+Refrain from making assumptions about data types or formats that could lead to a programming-oriented solution.
+Concluding the Names:
+After thorough analysis and validation, list the names identified as professors from each record, ensuring the approach is purely analytical and not based on programming logic.
+By following this method, we aim to accurately identify and confirm the names of the professors from the provided records, relying solely on logical reasoning and analysis."
+
+Professor Names:
+1. Tarek Abdelzaher
+2. Sarita V. Adve
+3. Vikram Adve
+
+--------------------------------------------------
+Prompt: Understanding the Task: The task involves creating a object for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position (if present), and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+First: We need to find the name of the professor inside the list. we should use the key name and output the professors with it.
+First Example:
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+
+Please show your thought process of doing this first step.
+
+Second: We need to find the Professors's position inside of th4 list using the key position.
+Second Example:
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+    position: Professor
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+    position: "Adjunct Professor
+   
+Please show your thought process of doing this second step.
+
+Creating Individual Objects:
+- For each professor, create a dictionary with the keys name, position, and research_interests.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire output, without wrapping it inside another object like "professors".
+
+Final Examples
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+    position: Professor
+    research_interests: null
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+    position: "Adjunct Professor
+    research_interests: null
+
+Text of where the Professor List is: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+GPT3.5 Response:
+First Step Thought Process:
+To find the name of the professor inside the list, we can access the first element of each sublist, as mentioned in the task description.
+
+1. Initialize an empty list to store the objects for each professor.
+2. Iterate through each sublist in the given text data.
+3. For each sublist, extract the first element (name) and store it in a variable.
+4. Create a dictionary object with the key 'name' and assign the extracted name as its value.
+5. Append the created dictionary object to the list of professor objects.
+
+Second Step Thought Process:
+To find the professor's position inside the list, we can access the second element of each sublist, as mentioned in the task description.
+
+1. While iterating through each sublist in the given text data, after extracting the name, check if there is a second element present.
+2. If a second element is present, extract it (position) and store it in a variable.
+3. Update the previously created dictionary object by adding a new key-value pair, where the key is 'position' and the value is the extracted position.
+
+Creating Individual Objects:
+
+1. After extracting the name and, if present, position, check if there is a third element present in the sublist.
+2. If a third element is present, extract it (research interests) and store it in a variable.
+3. Update the previously created dictionary object by adding a new key-value pair, where the key is 'research_interests' and the value is the extracted research interests.
+4. If a third element is not present, set the value for the key 'research_interests' as 'null'.
+
+Building the Final Output:
+
+1. After creating the dictionary objects for each professor, combine them into a single list.
+2. This list represents the entire output with the required information for each professor.
+
+BELUGA Response:
+<s> Understanding the Task: The task involves creating a object for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position (if present), and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+First: We need to find the name of the professor inside the list. we should use the key name and output the professors with it.
+First Example:
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+
+Please show your thought process of doing this first step.
+
+Second: We need to find the Professors's position inside of th4 list using the key position.
+Second Example:
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+    position: Professor
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+    position: "Adjunct Professor
+   
+Please show your thought process of doing this second step.
+
+Creating Individual Objects:
+- For each professor, create a dictionary with the keys name, position, and research_interests.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire output, without wrapping it inside another object like "professors".
+
+Final Examples
+- For 'Brian P. Bailey', the object will be: 
+    name: Brian P. Bailey
+    position: Professor
+    research_interests: null
+
+- For 'Michael Bailey', the object will be:
+    name: "Michael Bailey
+    position: "Adjunct Professor
+    research_interests: null
+
+Text of where the Professor List is: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+['Brian P. Bailey', 'Professor', None]
+['Michael Bailey', 'Adjunct Professor', None]
+['Jimeng Sun', None, 'Professor']
+['Hari Sund
+
+--------------------------------------------------
+Prompt: Understanding the Task:
+Create an object for each professor using text data. Each object should include 'name', 'position', and 'research_interests'. Replace missing information with 'null'.
+
+Analyzing the Text:
+The text lists professor details in the format: [name, position, research interests]. The first element is always the name, the second is the position (if given), and the third is research interests (if given).
+
+Handling Missing Information:
+Replace missing details with 'null'.
+
+Step 1: Extracting Names
+
+Thought Process: Access the first element from each list, which is the professor's name. Create a dictionary with the key 'name' and the name as its value.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey' }
+Step 2: Extracting Positions
+
+Thought Process: Check the second element of each list. If present, add it to the dictionary under 'position'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null' }
+Step 3: Extracting Research Interests
+
+Thought Process: Check the third element of each list. If present, add it under 'research_interests'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' }
+Creating Individual Objects:
+
+Process each list to create a dictionary object for each professor with keys 'name', 'position', and 'research_interests'.
+Replace missing elements with 'null'.
+Building the Final Output:
+
+Combine the individual dictionaries into a single list to represent all professors.
+Final Example:
+
+Given: ['Brian P. Bailey', None, 'Assistant Professor'], ['Michael Bailey', 'Adjunct Professor', None]
+Output:
+[{ 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' },
+{ 'name': 'Michael Bailey', 'position': 'Adjunct Professor', 'research_interests': 'null' }]
+
+Text input to look at: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+GPT3.5 Response:
+Based on the instructions provided, here is the solution in Python:
+
+# List of professor details in the format [name, position, research interests]
+professor_details = [
+    ['Jimeng  Sun', None, 'Professor'],
+    ['Hari  Sundaram', None, 'Professor'],
+    ['Ruby Tahboub', None, 'Teaching Assistant Professor']
+]
+
+# List to store all professor objects
+professors = []
+
+# Process each professor details
+for details in professor_details:
+    professor = {}
+    
+    # Extracting and setting the name
+    professor['name'] = details[0]
+    
+    # Extracting and setting the position, replace missing information with 'null'
+    professor['position'] = details[1] if details[1] else 'null'
+    
+    # Extracting and setting the research interests, replace missing information with 'null'
+    professor['research_interests'] = details[2] if details[2] else 'null'
+    
+    # Adding the professor object to the list
+    professors.append(professor)
+
+# Print the final list of all professors
+for professor in professors:
+    print(professor)
+
+BELUGA Response:
+<s> Understanding the Task:
+Create an object for each professor using text data. Each object should include 'name', 'position', and 'research_interests'. Replace missing information with 'null'.
+
+Analyzing the Text:
+The text lists professor details in the format: [name, position, research interests]. The first element is always the name, the second is the position (if given), and the third is research interests (if given).
+
+Handling Missing Information:
+Replace missing details with 'null'.
+
+Step 1: Extracting Names
+
+Thought Process: Access the first element from each list, which is the professor's name. Create a dictionary with the key 'name' and the name as its value.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey' }
+Step 2: Extracting Positions
+
+Thought Process: Check the second element of each list. If present, add it to the dictionary under 'position'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null' }
+Step 3: Extracting Research Interests
+
+Thought Process: Check the third element of each list. If present, add it under 'research_interests'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' }
+Creating Individual Objects:
+
+Process each list to create a dictionary object for each professor with keys 'name', 'position', and 'research_interests'.
+Replace missing elements with 'null'.
+Building the Final Output:
+
+Combine the individual dictionaries into a single list to represent all professors.
+Final Example:
+
+Given: ['Brian P. Bailey', None, 'Assistant Professor'], ['Michael Bailey', 'Adjunct Professor', None]
+Output:
+[{ 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' },
+{ 'name': 'Michael Bailey', 'position': 'Adjunct Professor', 'research_interests': 'null' }]
+
+Text input to look at: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
+Prompt: Understanding the Task:
+Create an object for each professor using text data. Each object should include 'name', 'position', and 'research_interests'. Replace missing information with 'null'.
+Do not try to write this out as code.
+
+Analyzing the Text:
+The text lists professor details in the format: [name, position, research interests]. The first element is always the name, the second is the position (if given), and the third is research interests (if given).
+
+Handling Missing Information:
+Replace missing details with 'null'.
+
+Step 1: Extracting Names
+
+Thought Process: Access the first element from each list, which is the professor's name. Create a dictionary with the key 'name' and the name as its value.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey' }
+Step 2: Extracting Positions
+
+Thought Process: Check the second element of each list. If present, add it to the dictionary under 'position'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null' }
+Step 3: Extracting Research Interests
+
+Thought Process: Check the third element of each list. If present, add it under 'research_interests'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' }
+Creating Individual Objects:
+
+Process each list to create a dictionary object for each professor with keys 'name', 'position', and 'research_interests'.
+Replace missing elements with 'null'.
+Building the Final Output:
+
+Combine the individual dictionaries into a single list to represent all professors.
+Final Example:
+
+Given: ['Brian P. Bailey', None, 'Assistant Professor'], ['Michael Bailey', 'Adjunct Professor', None]
+Output:
+[{ 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' },
+{ 'name': 'Michael Bailey', 'position': 'Adjunct Professor', 'research_interests': 'null' }]
+
+Text input to look at: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+GPT3.5 Response:
+Step 1: Extracting Names
+
+Given: ['Jimeng  Sun', None, 'Professor']
+Output: { 'name': 'Jimeng Sun' }
+
+Given: ['Hari  Sundaram', None, 'Professor']
+Output: { 'name': 'Hari Sundaram' }
+
+Given: ['Ruby Tahboub', None, 'Teaching Assistant Professor']
+Output: { 'name': 'Ruby Tahboub' }
+
+Step 2: Extracting Positions
+
+Given: ['Jimeng  Sun', None, 'Professor']
+Output: { 'name': 'Jimeng Sun', 'position': 'null' }
+
+Given: ['Hari  Sundaram', None, 'Professor']
+Output: { 'name': 'Hari Sundaram', 'position': 'null' }
+
+Given: ['Ruby Tahboub', None, 'Teaching Assistant Professor']
+Output: { 'name': 'Ruby Tahboub', 'position': 'null' }
+
+Step 3: Extracting Research Interests
+
+Given: ['Jimeng  Sun', None, 'Professor']
+Output: { 'name': 'Jimeng Sun', 'position': 'null', 'research_interests': 'Professor' }
+
+Given: ['Hari  Sundaram', None, 'Professor']
+Output: { 'name': 'Hari Sundaram', 'position': 'null', 'research_interests': 'Professor' }
+
+Given: ['Ruby Tahboub', None, 'Teaching Assistant Professor']
+Output: { 'name': 'Ruby Tahboub', 'position': 'null', 'research_interests': 'Teaching Assistant Professor' }
+
+Creating Individual Objects:
+
+[{ 'name': 'Jimeng Sun', 'position': 'null', 'research_interests': 'Professor' },
+{ 'name': 'Hari Sundaram', 'position': 'null', 'research_interests': 'Professor' },
+{ 'name': 'Ruby Tahboub', 'position': 'null', 'research_interests': 'Teaching Assistant Professor' }]
+
+BELUGA Response:
+<s> Understanding the Task:
+Create an object for each professor using text data. Each object should include 'name', 'position', and 'research_interests'. Replace missing information with 'null'.
+Do not try to write this out as code.
+
+Analyzing the Text:
+The text lists professor details in the format: [name, position, research interests]. The first element is always the name, the second is the position (if given), and the third is research interests (if given).
+
+Handling Missing Information:
+Replace missing details with 'null'.
+
+Step 1: Extracting Names
+
+Thought Process: Access the first element from each list, which is the professor's name. Create a dictionary with the key 'name' and the name as its value.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey' }
+Step 2: Extracting Positions
+
+Thought Process: Check the second element of each list. If present, add it to the dictionary under 'position'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null' }
+Step 3: Extracting Research Interests
+
+Thought Process: Check the third element of each list. If present, add it under 'research_interests'. If not, use 'null'.
+Example:
+Given: ['Brian P. Bailey', None, 'Assistant Professor']
+Output: { 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' }
+Creating Individual Objects:
+
+Process each list to create a dictionary object for each professor with keys 'name', 'position', and 'research_interests'.
+Replace missing elements with 'null'.
+Building the Final Output:
+
+Combine the individual dictionaries into a single list to represent all professors.
+Final Example:
+
+Given: ['Brian P. Bailey', None, 'Assistant Professor'], ['Michael Bailey', 'Adjunct Professor', None]
+Output:
+[{ 'name': 'Brian P. Bailey', 'position': 'null', 'research_interests': 'Assistant Professor' },
+{ 'name': 'Michael Bailey', 'position': 'Adjunct Professor', 'research_interests': 'null' }]
+
+Text input to look at: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
+Prompt: Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position, and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+Creating Individual JSON Objects:
+- For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final JSON Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire JSON output, without wrapping it inside another object like "professors".
+
+Examples:
+- For 'Brian P. Bailey', the JSON object will be: 
+{
+    "name": "Brian P. Bailey",
+    "position": "Professor",
+    "research_interests": null
+}
+- For 'Michael Bailey', the JSON object will be:
+{
+    "name": "Michael Bailey",
+    "position": "Adjunct Professor",
+    "research_interests": null
+}
+- And so on for other professors in the list.
+
+Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
+nesting under a "professors" key to avoid errors in data processing.
+
+Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
+unwarranted layers (like a "professors" key) are added to the final JSON output.
+
+Text: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+
+GPT3.5 Response:
+Final Output: 
+
+[
+    {
+        "name": "Jimeng  Sun",
+        "position": null,
+        "research_interests": "Professor"
+    },
+    {
+        "name": "Hari  Sundaram",
+        "position": null,
+        "research_interests": "Professor"
+    },
+    {
+        "name": "Ruby Tahboub",
+        "position": null,
+        "research_interests": "Teaching Assistant Professor"
+    }
+]
+
+BELUGA Response:
+<s> Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position, and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+Creating Individual JSON Objects:
+- For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final JSON Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire JSON output, without wrapping it inside another object like "professors".
+
+Examples:
+- For 'Brian P. Bailey', the JSON object will be: 
+{
+    "name": "Brian P. Bailey",
+    "position": "Professor",
+    "research_interests": null
+}
+- For 'Michael Bailey', the JSON object will be:
+{
+    "name": "Michael Bailey",
+    "position": "Adjunct Professor",
+    "research_interests": null
+}
+- And so on for other professors in the list.
+
+Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
+nesting under a "professors" key to avoid errors in data processing.
+
+Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
+unwarranted layers (like a "professors" key) are added to the final JSON output.
+
+Text: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+['Brian P. Bailey', None, 'Professor']
+['Michael Bailey', None, 'Adjunct Professor']
+['Jimeng Sun', None, 'Professor']
+['Hari Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+['Brian P. Bailey', None, 'Professor']
+['Michael Bailey',
+
+--------------------------------------------------
+Prompt: Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position, and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+Creating Individual JSON Objects:
+- For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final JSON Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire JSON output, without wrapping it inside another object like "professors".
+
+Examples:
+- For 'Brian P. Bailey', the JSON object will be: 
+{
+    "name": "Brian P. Bailey",
+    "position": "Professor",
+    "research_interests": null
+}
+- For 'Michael Bailey', the JSON object will be:
+{
+    "name": "Michael Bailey",
+    "position": "Adjunct Professor",
+    "research_interests": null
+}
+- And so on for other professors in the list.
+
+Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
+nesting under a "professors" key to avoid errors in data processing.
+
+Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
+unwarranted layers (like a "professors" key) are added to the final JSON output.
+
+Text: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+
+GPT3.5 Response:
+[
+    {
+        "name": "Jimeng Sun",
+        "position": null,
+        "research_interests": "Professor"
+    },
+    {
+        "name": "Hari Sundaram",
+        "position": null,
+        "research_interests": "Professor"
+    },
+    {
+        "name": "Ruby Tahboub",
+        "position": null,
+        "research_interests": "Teaching Assistant Professor"
+    }
+]
+
+BELUGA Response:
+<s> Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
+include 'name', 'position', and 'research_interests'.
+
+Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+the first element is the name, the second the position, and the third (if present) is research interests.
+
+Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+should be replaced with 'null'.
+
+Creating Individual JSON Objects:
+- For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
+- If any of these elements are missing, use 'null' as the value for that key.
+
+Building the Final JSON Output:
+- Combine these individual dictionaries into a single list.
+- This list represents the entire JSON output, without wrapping it inside another object like "professors".
+
+Examples:
+- For 'Brian P. Bailey', the JSON object will be: 
+{
+    "name": "Brian P. Bailey",
+    "position": "Professor",
+    "research_interests": null
+}
+- For 'Michael Bailey', the JSON object will be:
+{
+    "name": "Michael Bailey",
+    "position": "Adjunct Professor",
+    "research_interests": null
+}
+- And so on for other professors in the list.
+
+Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
+nesting under a "professors" key to avoid errors in data processing.
+
+Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
+unwarranted layers (like a "professors" key) are added to the final JSON output.
+
+Text: 
+['Jimeng  Sun', None, 'Professor']
+['Hari  Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+['Brian P. Bailey', None, 'Professor']
+['Michael Bailey', None, 'Adjunct Professor']
+['Jimeng Sun', None, 'Professor']
+['Hari Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+['Brian P. Bailey', None, 'Professor']
+['Michael Bailey',
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Jimeng Sun', None, 'Professor']
+['Hari Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+GPT3.5 Response:
+[
+    {
+        "name": "Jimeng Sun",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Hari Sundaram",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ruby Tahboub",
+        "position": "Teaching Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Jimeng Sun', None, 'Professor']
+['Hari Sundaram', None, 'Professor']
+['Ruby Tahboub', None, 'Teaching Assistant Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+Final JSON Output:
+[
+    {
+        "name": "Jimeng Sun",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Hari Sundaram",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ruby Tahboub",
+        "position": "Teaching Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+GPT3.5 Response:
+[
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research_interests": "he/him/his"
+    }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+Final JSON Output:
+[
+    {
+        "name": "Brian P. Bailey",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+GPT3.5 Response:
+{
+    "professors": [
+        {
+            "name": "Gokhan Tur",
+            "position": "Research Professor (starting January 2024)",
+            "research_interests": null
+        },
+        {
+            "name": "Michael Twidale",
+            "position": "Professor, Information Sciences",
+            "research_interests": null
+        },
+        {
+            "name": "Luther Tychonievich",
+            "position": "Teaching Associate Professor",
+            "research_interests": "null"
+        }
+    ]
+}
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+Final JSON Output:
+[
+    {
+        "name": "Brian P. Bailey",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+GPT3.5 Response:
+JSON Output:
+
+[
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research_interests": "he/him/his"
+    }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+Final JSON Output:
+[
+    {
+        "name": "Brian P. Bailey",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+GPT3.5 Response:
+[
+  {
+    "name": "Gokhan Tur",
+    "position": "Research Professor (starting January 2024)",
+    "research_interests": "null"
+  },
+  {
+    "name": "Michael Twidale",
+    "position": "Professor, Information Sciences",
+    "research_interests": "null"
+  },
+  {
+    "name": "Luther Tychonievich",
+    "position": "Teaching Associate Professor",
+    "research_interests": "null"
+  }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'name' key will be "Brian P. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'position' key will be 'Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Brian P. Bailey', None, 'Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Examples:
+
+For 'Brian P. Bailey', the JSON object will be:
+{
+    "name": "Brian P. Bailey",
+    "position": Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps.
+
+Final JSON Output:
+[
+    {
+        "name": "Brian P. Bailey",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+GPT3.5 Response:
+{
+    "professors": [
+        {
+            "name": "Gokhan Tur",
+            "position": "Research Professor (starting January 2024)",
+            "research_interests": null
+        },
+        {
+            "name": "Michael Twidale",
+            "position": "Professor, Information Sciences",
+            "research_interests": null
+        },
+        {
+            "name": "Luther Tychonievich",
+            "position": "Teaching Associate Professor",
+            "research_interests": null
+        }
+    ]
+}
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+Final JSON Output:
+[
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": null
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": null
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research_interests": null
+    }
+]
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+GPT3.5 Response:
+[
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": "null"
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research_interests": "null"
+    }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Gokhan Tur', None, 'Research Professor (starting January 2024)']
+['Michael Twidale', None, 'Professor, Information Sciences']
+['Luther Tychonievich', 'he/him/his', 'Teaching Associate Professor']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+Final JSON Output:
+[
+    {
+        "name": "Gokhan Tur",
+        "position": "Research Professor (starting January 2024)",
+        "research_interests": null
+    },
+    {
+        "name": "Michael Twidale",
+        "position": "Professor, Information Sciences",
+        "research_interests": null
+    },
+    {
+        "name": "Luther Tychonievich",
+        "position": "Teaching Associate Professor",
+        "research_interests": null
+    }
+]
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Steven Leeb', 'Emanuel E. Landsman (1958) Professor, [EE and CS]', 'sbleeb@mit.edu', '(617) 253-9360', 'Office: 10-069', 'Electronic, Magnetic, Optical and Quantum Materials and Devices', 'Energy', '']
+['Charles Leiserson', 'Edwin Sibley Webster Professor; [CS]', 'cel@mit.edu', '(617) 253-5833', 'Office: 32-G768', 'Artificial Intelligence + Decision making', 'Computer Architecture', 'Systems and Networking']
+['Barbara Liskov', 'Insitute Professor (post tenure)', 'liskov@csail.mit.edu', '(617) 253-5886', 'Office: 32-G942', 'Programming Languages and Software Engineering', 'Systems and Networking', '']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+GPT3.5 Response:
+{
+    "professors": [
+        {
+            "name": "Steven Leeb",
+            "position": "Emanuel E. Landsman (1958) Professor, [EE and CS]",
+            "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices, Energy"
+        },
+        {
+            "name": "Charles Leiserson",
+            "position": "Edwin Sibley Webster Professor; [CS]",
+            "research_interests": "Artificial Intelligence + Decision making, Computer Architecture, Systems and Networking"
+        },
+        {
+            "name": "Barbara Liskov",
+            "position": "Insitute Professor (post tenure)",
+            "research_interests": "Programming Languages and Software Engineering, Systems and Networking"
+        }
+    ]
+}
+
+BELUGA Response:
+<s> Text to Process:
+['Steven Leeb', 'Emanuel E. Landsman (1958) Professor, [EE and CS]', 'sbleeb@mit.edu', '(617) 253-9360', 'Office: 10-069', 'Electronic, Magnetic, Optical and Quantum Materials and Devices', 'Energy', '']
+['Charles Leiserson', 'Edwin Sibley Webster Professor; [CS]', 'cel@mit.edu', '(617) 253-5833', 'Office: 32-G768', 'Artificial Intelligence + Decision making', 'Computer Architecture', 'Systems and Networking']
+['Barbara Liskov', 'Insitute Professor (post tenure)', 'liskov@csail.mit.edu', '(617) 253-5886', 'Office: 32-G942', 'Programming Languages and Software Engineering', 'Systems and Networking', '']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+Final JSON Output:
+[
+    {
+        "name": "Steven Leeb",
+        "position": "Emanuel E. Landsman (1958) Professor, [EE and CS]",
+        "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices, Energy"
+    },
+    {
+        "name": "Charles Leiserson",
+        "position": "Edwin Sibley Webster Professor; [CS]",
+        "research_interests": "Artificial Intelligence + Decision making, Computer Architecture, Systems and Networking"
+    },
+
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Steven Leeb', 'Emanuel E. Landsman (1958) Professor, [EE and CS]', 'sbleeb@mit.edu', '(617) 253-9360', 'Office: 10-069', 'Electronic, Magnetic, Optical and Quantum Materials and Devices', 'Energy', '']
+['Charles Leiserson', 'Edwin Sibley Webster Professor; [CS]', 'cel@mit.edu', '(617) 253-5833', 'Office: 32-G768', 'Artificial Intelligence + Decision making', 'Computer Architecture', 'Systems and Networking']
+['Barbara Liskov', 'Insitute Professor (post tenure)', 'liskov@csail.mit.edu', '(617) 253-5886', 'Office: 32-G942', 'Programming Languages and Software Engineering', 'Systems and Networking', '']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+GPT3.5 Response:
+[
+    {
+        "name": "Steven Leeb",
+        "position": "Emanuel E. Landsman (1958) Professor, [EE and CS]",
+        "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices, Energy"
+    },
+    {
+        "name": "Charles Leiserson",
+        "position": "Edwin Sibley Webster Professor; [CS]",
+        "research_interests": "Artificial Intelligence + Decision making, Computer Architecture, Systems and Networking"
+    },
+    {
+        "name": "Barbara Liskov",
+        "position": "Insitute Professor (post tenure)",
+        "research_interests": "Programming Languages and Software Engineering, Systems and Networking"
+    }
+]
+
+BELUGA Response:
+<s> Text to Process:
+['Steven Leeb', 'Emanuel E. Landsman (1958) Professor, [EE and CS]', 'sbleeb@mit.edu', '(617) 253-9360', 'Office: 10-069', 'Electronic, Magnetic, Optical and Quantum Materials and Devices', 'Energy', '']
+['Charles Leiserson', 'Edwin Sibley Webster Professor; [CS]', 'cel@mit.edu', '(617) 253-5833', 'Office: 32-G768', 'Artificial Intelligence + Decision making', 'Computer Architecture', 'Systems and Networking']
+['Barbara Liskov', 'Insitute Professor (post tenure)', 'liskov@csail.mit.edu', '(617) 253-5886', 'Office: 32-G942', 'Programming Languages and Software Engineering', 'Systems and Networking', '']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+Final JSON Output:
+[
+    {
+        "name": "Steven Leeb",
+        "position": "Emanuel E. Landsman (1958) Professor, [EE and CS]",
+        "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices, Energy"
+    },
+    {
+        "name": "Charles Leiserson",
+        "position": "Edwin Sibley Webster Professor; [CS]",
+        "research_interests": "Artificial Intelligence + Decision making, Computer Architecture, Systems and Networking"
+    },
+    {
+        "name": "Barbara Liskov",
+        "position": "Insitute Professor (post tenure)",
+        "research_interests": "Programming Languages and Software Engineering, Systems and Networking"
+    }
+]
+
+--------------------------------------------------
+Prompt: Text to Process:
+['Henry Corrigan-Gibbs', 'Douglas Ross (1954) Career Development Professor of Software Technology, Assistant Professor, [CS]', 'henrycg@csail.mit.edu', '617-253-0301', 'Office: 32-G970a', 'Security and Cryptography', 'Systems and Networking', '']
+['Constantinos Daskalakis', 'Armen Avanessians (1982) Professor, [AI+D and CS]', 'costis@csail.mit.edu', '(617) 253-9643', 'Office: 32-G694', 'AI and Society', 'AI for Healthcare and Life Sciences', 'Optimization and Game Theory']
+['Christina Delimitrou', 'Associate Professor, [CS]', 'delimitrou@csail.mit.edu', 'Office: 32-G738', '', 'Computer Architecture', 'Computer Science and Artificial Intelligence Laboratory (CSAIL)', 'Cybersecurity']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+GPT3.5 Response:
+{
+    "professors": [
+        {
+            "name": "Henry Corrigan-Gibbs",
+            "position": "Assistant Professor, [CS]",
+            "research_interests": "Security and Cryptography, Systems and Networking"
+        },
+        {
+            "name": "Douglas Ross (1954) Career Development Professor of Software Technology",
+            "position": "null",
+            "research_interests": "null"
+        },
+        {
+            "name": "Constantinos Daskalakis",
+            "position": "Armen Avanessians (1982) Professor, [AI+D and CS]",
+            "research_interests": "AI and Society, AI for Healthcare and Life Sciences, Optimization and Game Theory"
+        },
+        {
+            "name": "Christina Delimitrou",
+            "position": "Associate Professor, [CS]",
+            "research_interests": "Computer Architecture, Computer Science and Artificial Intelligence Laboratory (CSAIL), Cybersecurity"
+        }
+    ]
+}
+
+BELUGA Response:
+<s> Text to Process:
+['Henry Corrigan-Gibbs', 'Douglas Ross (1954) Career Development Professor of Software Technology, Assistant Professor, [CS]', 'henrycg@csail.mit.edu', '617-253-0301', 'Office: 32-G970a', 'Security and Cryptography', 'Systems and Networking', '']
+['Constantinos Daskalakis', 'Armen Avanessians (1982) Professor, [AI+D and CS]', 'costis@csail.mit.edu', '(617) 253-9643', 'Office: 32-G694', 'AI and Society', 'AI for Healthcare and Life Sciences', 'Optimization and Game Theory']
+['Christina Delimitrou', 'Associate Professor, [CS]', 'delimitrou@csail.mit.edu', 'Office: 32-G738', '', 'Computer Architecture', 'Computer Science and Artificial Intelligence Laboratory (CSAIL)', 'Cybersecurity']
+Understanding the Task:
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+Analyzing the Text:
+The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+Handling Missing Information:
+If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+Watch Out For:
+pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+Step-by-Step Process with Examples:
+
+Step 1: Extracting Names
+
+Extract the first element from each list for the name.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+Step 2: Extracting Positions
+
+Extract the second element for the position, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+Step 3: Extracting Research Interests
+
+Extract the third element for research interests, using 'null' if it is missing.
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+Creating Individual JSON Objects:
+
+For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+Ensure to replace missing elements with 'null'.
+Building the Final JSON Output:
+
+Combine these individual JSON objects into a single JSON array.
+The final output should be a clean JSON array without any additional nesting.
+Final Example:
+
+For 'Devin H. Bailey', the JSON object will be:
+{
+    "name": "Devin H. Bailey",
+    "position": Associate Professor,
+    "research_interests": "null"
+}
+Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+
+Final JSON Output:
+[
+    {
+        "name": "Henry Corrigan-Gibbs",
+        "position": "Douglas Ross (1954) Career Development Professor of Software Technology, Assistant Professor, [CS]",
+        "research_interests": "Security and Cryptography, Systems and Networking"
+    },
+    {
+        "name": "Constantinos Daskalakis",
+        "position": "Armen Avanessians (1982) Professor, [AI+D and CS]",
+        "research_interests": "AI and Society, AI for Healthcare and Life Sciences, Optimization and Game Theory"
+    },
+    {
+        "name": "Christina Delimitrou",
+        "position": "Associate Professor, [CS]",
+        "research_interests": "Computer Architecture, Cybersecurity"
+    }
+]
+
+--------------------------------------------------
