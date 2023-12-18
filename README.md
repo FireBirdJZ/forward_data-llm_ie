@@ -2,9 +2,11 @@
 
 ## Overview
 
-Give a brief overview of your module here. For example: this module is responsible for classifying pieces of text using a neural network on top of BERT. 
+This module can be split into two main parts:
+    
+1. The first module extracts all of the professors names, positions and research interests from a faculty cs webpage by Classifying similar html subtrees into regions containing records for each professor with pydepta; then extracting the professor's information inside a records with a large language model. 
 
-Note: if this is a second or latter iteration of a module, you may reuse the old iteration's README as a starting point (you should still update it). 
+2. The second module compares two large language models(gpt3.5turbo and Beluga which is a finetuned Llama2) by running a set of web information extraction prompts to test the capability of each model with direct comparison of each other.   
 
 ## Setup
 
