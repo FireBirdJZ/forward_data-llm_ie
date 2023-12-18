@@ -6,22 +6,110 @@ This module can be split into two main parts:
     
 1. The first module extracts all of the professors names, positions and research interests from a faculty cs webpage by Classifying similar html subtrees into regions containing records for each professor with pydepta; then extracting the professor's information inside a records with a large language model. 
 
-2. The second module compares two large language models(gpt3.5turbo and Beluga which is a finetuned Llama2) by running a set of web information extraction prompts to test the capability of each model with direct comparison of each other.   
+2. The second module compares two large language models(gpt3.5turbo and Beluga which is a finetuned Llama2) by running a set of web information extraction prompts to test the capability of each model with direct comparison of each other.
 
+A Break Down of the structure of the repo's file structure:
+```
+.
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── src
+    ├── experiments
+    │   ├── generated_code_directory
+    │   │   ├── generated_code.py
+    │   │   └── output.txt
+    │   ├── langchain_testing.ipynb
+    │   ├── natbot_extract_text_json
+    │   ├── natbot_generated_program_directory
+    │   │   ├── natbot_generated_output.txt
+    │   │   └── natbot_generated_program.py
+    │   ├── natbot_prompt_program.py
+    │   ├── natbot_testing.py
+    │   ├── sematic_regular_expressions_testing.py
+    │   └── testing_markuplm.py
+    ├── extracted_info.json
+    ├── main.py
+    ├── segmentation
+    │   └── pydepta
+    │       ├── LICENSE
+    │       ├── Makefile.buildbot
+    │       ├── pydepta
+    │       │   ├── comparing_models
+    │       │   │   ├── gpt3.5turbo_illini.json
+    │       │   │   └── gpt3.5turbo_mit.json
+    │       │   ├── comparing_models.py
+    │       │   ├── cot_comparing_models
+    │       │   │   ├── gpt3.5turbo_illini2.json
+    │       │   │   └── gpt3.5turbo_illini.json
+    │       │   ├── depta.py
+    │       │   ├── extract_prof_names.py
+    │       │   ├── htmls.py
+    │       │   ├── illini1_professors.json
+    │       │   ├── illini2_professors.json
+    │       │   ├── illlini3_professors.json
+    │       │   ├── __init__.py
+    │       │   ├── llm_benchmark_suite
+    │       │   │   ├── benchmark_output.txt
+    │       │   │   ├── benchmark_prompts_file.txt
+    │       │   │   └── text_analysis
+    │       │   │       ├── output_analysis.txt
+    │       │   │       └── prompt_analysis.txt
+    │       │   ├── LLMBenchmarkSuite.py
+    │       │   ├── mdr.py
+    │       │   ├── __pycache__
+    │       │   │   ├── comparing_models.cpython-311.pyc
+    │       │   │   ├── extract_prof_names.cpython-311.pyc
+    │       │   │   ├── htmls.cpython-311.pyc
+    │       │   │   ├── mdr.cpython-311.pyc
+    │       │   │   ├── trees.cpython-311.pyc
+    │       │   │   └── trees_cython.cpython-311.pyc
+    │       │   ├── saved_faculty_html_files
+    │       │   │   ├── csd.cmu.edu.html
+    │       │   │   ├── cs.illinois.edu.html
+    │       │   │   └── www.eecs.mit.edu.html
+    │       │   ├── tests
+    │       │   │   ├── __init__.py
+    │       │   │   ├── resources
+    │       │   │   │   ├── 1.html
+    │       │   │   │   ├── 1.txt
+    │       │   │   │   ├── 2.html
+    │       │   │   │   ├── 2.txt
+    │       │   │   │   ├── 3.html
+    │       │   │   │   ├── 3.txt
+    │       │   │   │   ├── 4.html
+    │       │   │   │   ├── 4.txt
+    │       │   │   │   ├── 5.html
+    │       │   │   │   ├── 5.txt
+    │       │   │   │   ├── 6.html
+    │       │   │   │   └── 7.html
+    │       │   │   └── test_depta.py
+    │       │   ├── trees_cython.c
+    │       │   ├── trees_cython.py
+    │       │   ├── trees_cython.pyx
+    │       │   └── trees.py
+    │       ├── README.rst
+    │       ├── requirements.txt
+    │       ├── runtests.sh
+    │       ├── setup.py
+    │       ├── snapshot1.png
+    │       └── test.py
+    ├── shopify_extracted_info.json
+    ├── vector_db.py
+    └── web_extractor.py   
+```
 ## Setup
 
-List the steps needed to install your module's dependencies: 
+module's dependencies: 
+Python Version 3.11.5
+Pip Version 23.3
 
-1. Include what version of Python (e.g. 3.8.12) and what version of pip (e.g. 21.3.1) you used when running your module. If you do not specify these, other users may run into several problems when trying to install dependencies!
-
-2. Include a requirements.txt containing all of the python dependencies needed at your project's root (see this [link](https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt) for instructions on how to create a requirements.txt). If you used a python virtual environment, use `pip freeze -l > requirements.txt` to generate your requirements.txt file. Make sure to include the below line somewhere in this section to tell users how to use your requirements.txt. 
+The Rest of the python dependencies can be installed with:
 ```
 pip install -r requirements.txt 
 ```
 
-3. Additionally, list any other setup required to run your module such as installing MySQL or downloading data files that you module relies on. 
-
-4. Include instructions on how to run any tests you have written to verify your module is working properly. 
+You will also need a openai api-key inorder to use gpt3.5turbo which can be stored inside a config.json file.
 
 It is very important to also include an overall breakdown of your repo's file structure. Let people know what is in each directory and where to look if they need something specific. This will also let users know how your repo needs to structured so that your module can work properly
 
