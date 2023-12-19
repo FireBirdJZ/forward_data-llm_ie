@@ -8,6 +8,8 @@ This module can be split into two main parts:
 
 2. The second module compares two large language models(gpt3.5turbo and Beluga which is a finetuned Llama2) by running a set of web information extraction prompts to test the capability of each model with direct comparison of each other.
 
+The Rest of the folders and files were used in exploration and research such as the experiments folder which tests things out dealing with langchain, natbot, and vector databases.
+
 A Break Down of the structure of the repo's file structure:
 ```
 .
@@ -54,7 +56,9 @@ A Break Down of the structure of the repo's file structure:
     │       │   │   ├── benchmark_prompts_file.txt
     │       │   │   └── text_analysis
     │       │   │       ├── output_analysis.txt
-    │       │   │       └── prompt_analysis.txt
+    │       │   │       ├── prompt_analysis.txt
+    │       │   │       ├── video_output_demo.txt
+    │       │   │       └── video_prompt_demo.txt
     │       │   ├── LLMBenchmarkSuite.py
     │       │   ├── mdr.py
     │       │   ├── __pycache__
@@ -87,7 +91,10 @@ A Break Down of the structure of the repo's file structure:
     │       │   ├── trees_cython.c
     │       │   ├── trees_cython.py
     │       │   ├── trees_cython.pyx
-    │       │   └── trees.py
+    │       │   ├── trees.py
+    │       │   └── video_test_comparing_models
+    │       │       ├── gpt3.5turbo_illini.txt
+    │       │       └── v2_gpt3.5turbo_illini.txt
     │       ├── README.rst
     │       ├── requirements.txt
     │       ├── runtests.sh
@@ -96,7 +103,7 @@ A Break Down of the structure of the repo's file structure:
     │       └── test.py
     ├── shopify_extracted_info.json
     ├── vector_db.py
-    └── web_extractor.py   
+    └── web_extractor.py
 ```
 
 
@@ -150,17 +157,6 @@ Include a link to your demo video, which you upload to our shared Google Drive f
 
 
 ## Algorithmic Design 
-This section should contain a detailed description of all different components and models that you will be using to achieve your task as well as a diagram. Here is a very basic example of what you should include:
-
-We generate vector representations for each document using BERT, we then train a simple, single-layer fully connected neural network using the documents and labels from the training set.
-
-First, we select a set of labeled text documents `d_1, d_2, …, d_N` from the arxiv dataset available on Kaggle. The documents are randomly partitioned into two sets for training and testing. We use the BERT language model's output as the input to the neural network. Only the weights of the neural network are modified during training. 
-
-After training, we run the trained model to classify the test documents into one of the classes in C. Below is a picture of the architecture of the module. The diagram below was constructed using draw.io 
-
-![design architecture](https://github.com/Forward-UIUC-2021F/guidelines/blob/main/template_diagrams/sample-design.png)
-
-My Algo:
 
 First, We take the input of a faculty webpage url or it's HTML and run it through pydepta to generate regions that classifies similar structure subtrees in the HTML.
 
@@ -168,7 +164,9 @@ Next, we classify these regions with a large language model asking if a region c
 
 After, We check 3 records at a time inside a region. a record is a list which usually consists of single Professor with information related to the Professor that pydepta classifies in it's subtree such as the Professor's email and Position depending on the webpage. We put these 3 records inside a large language model's and asking the model to output in JSON format the Professor's name, position and research interests. If it doesn't find this information it should fill it with null.(Exact prompts used are in comparing_models.py).
 
-Lastly, we take the returned answer from the language model from the current 3 records and insert it inside a file to store. Then repeat the same steps onto the next 3 records inside that Region.  
+Lastly, we take the returned answer from the language model from the current 3 records and insert it inside a file to store. Then repeat the same steps onto the next 3 records inside that Region.
+
+![design architecture](https://github.com/FireBirdJZ/forward_data-llm_ie/edit/main/diagram.png)
 
 
 
@@ -178,18 +176,24 @@ Lastly, we take the returned answer from the language model from the current 3 r
 * In comparing_models.py the large language model will not always output correct JSON output which will cause the program to skip inserting into the file to prevent the program from crashing. In the future I will most likely switch this file from a .json to a .txt file when inserting, or come up with a way to parse the llm's answer and manually build the Json as the large language model is inconsistent of building the correct JSON object even if it's answer could be correct of extraction the correct information.
 * For very long webpages it's possible that pydepta can crash.
 * Pydepta pip package does not currently work as the project seems to be abandoned as well as it's dependencies. So I modified the files to run inside of pydepta and used only what I needed for my research.
-
+* Petals can sometimes take long period of times or not find connections to run the local llm, such as in the presentation I cut the video short of it finishing its output.
+* Beluga generates the prompt into its answer.
 
 
 ## Change log
-
-*12/19/2023: Changed COT prompt for extracting Professor information comparing_models.py to the COT prompt found in benchmarking llm models with a more exact step process. 
-
 
 
 
 ## References 
 include links related to datasets and papers describing any of the methodologies models you used. E.g. 
 
-* Dataset: https://www.kaggle.com/Cornell-University/arxiv 
-* BERT paper: Jacob Devlin, Ming-Wei Chang, Kenton Lee, & Kristina Toutanova. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+* Pydepta fork: https://github.com/ZhijiaCHEN/pydepta/tree/master (Thank you to Zhijia Chen for explaining his modifications and code to pydepta)
+* For Running Local LLMs: https://github.com/bigscience-workshop/petals
+* Emotional Prompts: https://arxiv.org/pdf/2307.11760
+* LLMs Don't say what they think: https://arxiv.org/pdf/2305.04388
+* Depta Paper: https://dl.acm.org/doi/10.1145/1060745.1060761
+* Openai for gpt: https://openai.com/
+
+Used in exploration and research but not in main solution:
+* Natbot.py: https://github.com/nat/natbot/blob/main/natbot.py
+* Langchain: https://www.langchain.com/
