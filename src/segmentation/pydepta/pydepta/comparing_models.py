@@ -66,6 +66,21 @@ class FacultyDataHarvester:
         
         return self.raw_html
 
+    def save_html_to_file(self, url, folder_path='saved_faculty_html_files'):
+        # Define folder path and file name
+        file_name = url.split('//')[-1].split('/')[0] + '.html'  # Example to derive file name from URL
+        full_path = os.path.join(folder_path, file_name)
+
+        # Check if the folder exists, create if not
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+
+        # Write HTML content to the file
+        with open(full_path, 'w', encoding='utf-8') as file:
+            file.write(self.raw_html)
+
+        print(f"HTML content saved to {full_path}")
+
     def load_html_from_file(self, url):
         # Define folder path and file name
         folder_path = 'saved_faculty_html_files'
@@ -90,9 +105,10 @@ class FacultyDataHarvester:
         self.raw_text = soup.get_text(separator=' ', strip=True)
         return self.raw_text
 
-
-# Do one region at a time, can try to make this faster later by finding names in more than one region
-    def find_names_in_region(self, region: List[List[Any]]):
+    # write_mode returns the json output in either a .json file or .txt
+    # The llm can sometimes mess up generating the .json so its currently safer
+    # To make the output in a .txt file
+    def find_names_in_region(self, region: List[List[Any]], folder_path="example_compare_models", file_name="compare_models_output", write_mode='txt'):
         
         def classify_region_for_prof_names(region: List[List[Any]]) -> bool:
             print(f"region: {region}")
@@ -139,46 +155,98 @@ class FacultyDataHarvester:
                     #     "'position', and 'research_interests' fields. If a field is not available, put 'null' in its place.\n\n"
                     #     f"Text: {combined_records_str}"
                     # )
-                    # cot prompt
-                    prompt = """
-                        Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
-                        include 'name', 'position', and 'research_interests'.
 
-                        Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
-                        the first element is the name, the second the position, and the third (if present) is research interests.
+                    # cot prompt V1
+                    # prompt = """
+                    #     Understanding the Task: The task involves creating JSON objects for each professor using text data. Each object should 
+                    #     include 'name', 'position', and 'research_interests'.
 
-                        Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
-                        should be replaced with 'null'.
+                    #     Analyzing the Text: The text contains information about professors. Each professor's details are in a list format, where 
+                    #     the first element is the name, the second the position, and the third (if present) is research interests.
 
-                        Creating Individual JSON Objects:
-                        - For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
-                        - If any of these elements are missing, use 'null' as the value for that key.
+                    #     Handling Missing Information: In cases where information about a professor's research interests is missing, the value 
+                    #     should be replaced with 'null'.
 
-                        Building the Final JSON Output:
-                        - Combine these individual dictionaries into a single list.
-                        - This list represents the entire JSON output, without wrapping it inside another object like "professors".
+                    #     Creating Individual JSON Objects:
+                    #     - For each professor, create a dictionary with the keys 'name', 'position', and 'research_interests'.
+                    #     - If any of these elements are missing, use 'null' as the value for that key.
 
-                        Examples:
-                        - For 'Brian P. Bailey', the JSON object will be: 
-                        {
-                            "name": "Brian P. Bailey",
-                            "position": "Professor",
-                            "research_interests": null
-                        }
-                        - For 'Michael Bailey', the JSON object will be:
-                        {
-                            "name": "Michael Bailey",
-                            "position": "Adjunct Professor",
-                            "research_interests": null
-                        }
-                        - And so on for other professors in the list.
+                    #     Building the Final JSON Output:
+                    #     - Combine these individual dictionaries into a single list.
+                    #     - This list represents the entire JSON output, without wrapping it inside another object like "professors".
 
-                        Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
-                        nesting under a "professors" key to avoid errors in data processing.
+                    #     Examples:
+                    #     - For 'Brian P. Bailey', the JSON object will be: 
+                    #     {
+                    #         "name": "Brian P. Bailey",
+                    #         "position": "Professor",
+                    #         "research_interests": null
+                    #     }
+                    #     - For 'Michael Bailey', the JSON object will be:
+                    #     {
+                    #         "name": "Michael Bailey",
+                    #         "position": "Adjunct Professor",
+                    #         "research_interests": null
+                    #     }
+                    #     - And so on for other professors in the list.
 
-                        Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
-                        unwarranted layers (like a "professors" key) are added to the final JSON output.
-                        """ + f"-Text: {combined_records_str}"
+                    #     Final Output: The final output should be a JSON array consisting of these JSON objects. Ensure there is no additional 
+                    #     nesting under a "professors" key to avoid errors in data processing.
+
+                    #     Note on JSON Structure: It is crucial to maintain correct JSON syntax and structure, ensuring that no additional or 
+                    #     unwarranted layers (like a "professors" key) are added to the final JSON output.
+                    #     """ + f"-Text: {combined_records_str}"
+
+
+                    # COT PromptV2
+                    prompt = f"Text to Process: {combined_records_str}\n"+"""
+                    Understanding the Task:
+                    The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+                    Analyzing the Text:
+                    The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+                    Handling Missing Information:
+                    If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+                    Watch Out For:
+                    pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+                    Step-by-Step Process with Examples:
+
+                    Step 1: Extracting Names
+
+                    Extract the first element from each list for the name.
+                    Example:
+                    Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+                    Step 2: Extracting Positions
+
+                    Extract the second element for the position, using 'null' if it is missing.
+                    Example:
+                    Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+                    Step 3: Extracting Research Interests
+
+                    Extract the third element for research interests, using 'null' if it is missing.
+                    Example:
+                    Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+                    Creating Individual JSON Objects:
+
+                    For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+                    Ensure to replace missing elements with 'null'.
+                    Building the Final JSON Output:
+
+                    Combine these individual JSON objects into a single JSON array.
+                    The final output should be a clean JSON array without any additional nesting.
+                    Final Example:
+
+                    For 'Devin H. Bailey', the JSON object will be:
+                    {
+                        "name": "Devin H. Bailey",
+                        "position": Associate Professor,
+                        "research_interests": "null"
+                    }
+                    Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+                    """
                     answer = chatGpt(prompt)
                     print(f"answer: {answer}")
 
@@ -203,134 +271,59 @@ class FacultyDataHarvester:
                             with open(file_path, 'w', encoding='utf-8') as file:
                                 json.dump([data], file, indent=4)
 
+                    def append_to_txt_file(file_path, data):
+                        with open(file_path, 'a', encoding='utf-8') as file:
+                            file.write(str(data) + '\n\n')
 
-                    folder_path = 'cot_comparing_models'
-                    file_name = 'gpt4_illini.json'
-                    full_path = os.path.join(folder_path, file_name)
+                    # folder_path = 'cot_comparing_models'
+                    # file_name = 'gpt3.5_illini.json'
+                    # full_path = os.path.join(folder_path, file_name)
 
-                    if answer.strip().lower() == 'null':
-                        print("No relevant information found")
-                        continue
-                    else:
-                        try:
-                            prof_info_list = json.loads(answer)
+                    # if answer.strip().lower() == 'null':
+                    #     print("No relevant information found")
+                    #     continue
+                    # else:
+                    #     try:
+                    #         prof_info_list = json.loads(answer)
 
-                            # Check if the folder exists, create if not
-                            if not os.path.exists(folder_path):
-                                os.makedirs(folder_path)
+                    #         # Check if the folder exists, create if not
+                    #         if not os.path.exists(folder_path):
+                    #             os.makedirs(folder_path)
 
-                            # Append data to the JSON file within the folder
-                            append_to_json_file(full_path, prof_info_list)
+                    #         # Append data to the JSON file within the folder
+                    #         append_to_json_file(full_path, prof_info_list)
 
-                            for prof_info in prof_info_list:
-                                try:
-                                    name = prof_info.get('name')
-                                    if name:
-                                        formatted_name = name.replace('"', '').replace("'", '')
-                                        self.prof_names_set.add(formatted_name)
-                                except AttributeError:
-                                    print("Something is wrong with the data format.")
-                                    continue  # Continue to the next iteration of the loop
-                        except json.JSONDecodeError:
-                            print("Received invalid JSON data")
+                    #         for prof_info in prof_info_list:
+                    #             try:
+                    #                 name = prof_info.get('name')
+                    #                 if name:
+                    #                     formatted_name = name.replace('"', '').replace("'", '')
+                    #                     self.prof_names_set.add(formatted_name)
+                    #             except AttributeError:
+                    #                 print("Something is wrong with the data format.")
+                    #                 continue  # Continue to the next iteration of the loop
+                    #     except json.JSONDecodeError:
+                    #         print("Received invalid JSON data")
+                    def process_data(answer, folder_path, file_name, write_mode='txt'):
+                        full_path = os.path.join(folder_path, file_name)
+                        if answer.strip().lower() == 'null':
+                            print("No relevant information found")
+                        else:
+                            try:
+                                prof_info_list = json.loads(answer) if write_mode == 'json' else answer
+                                if not os.path.exists(folder_path):
+                                    os.makedirs(folder_path)
 
+                                if write_mode == 'json':
+                                    append_to_json_file(full_path, prof_info_list)
+                                    
+                                if write_mode == 'txt':
+                                    append_to_txt_file(full_path, prof_info_list)
+                            except json.JSONDecodeError:
+                                print("Received invalid JSON data")
+
+                    process_data(answer, folder_path, f"{file_name}.{write_mode}", write_mode)            
                     combined_record = []
                 
         else: print("Failed Classify")
         print(f"Professor Name Set: {self.prof_names_set}")
-    
-
-
-    def extract_prof_names_to_json(self):
-        
-        def extract_text_around_name(name, text,  window=8):
-            # Find the position of the name in the text
-            start_index = text.find(name)
-            if start_index == -1:
-                return None  # Name not found in the text
-
-            # Find the indices of the words around the name
-            words_before = text[:start_index].split()
-            words_after = text[start_index:].split()
-
-            # Calculate the start and end indices for the window of text around the name
-            start_word_index = max(0, len(words_before) - window)
-            end_word_index = min(len(words_after), window + 1)
-
-            # Extract the text around the name
-            before_text = ' '.join(words_before[start_word_index:])
-            after_text = ' '.join(words_after[:end_word_index])
-
-            # Combine the text before and after the name
-            return before_text + ' ' + after_text
-           
-
-
-        def find_names_in_html():
-            # Parse the HTML to extract text
-            soup = BeautifulSoup(self.raw_html, 'html.parser')
-            html_text = soup.get_text(separator=' ')
-            # Search for each name in the HTML text
-            for name in self.prof_names_set:
-                if name in html_text:
-                    # Find the same name in the raw text and extract context around it
-                    context = extract_text_around_name(name, html_text)
-                    if context:
-                        prompt = (
-                        f"Output in JSON FORMAT- The following page contains a list of faculty information, find the professor's name, position, and research interests of the professor{name} "
-                        "And nobody else! "
-                        "If no names that match these criteria are found, output 'null'.\n\n"
-                        f"Text: {context}"
-                    )       
-                        answer: str = chatGpt(prompt)
-                        print(f"answer: {answer}")
-                        if answer.strip().lower() == "null" : continue 
-                        else:
-                            # TODO Need to add a check if Valid JSON before inserting into file
-                            def append_to_json_file(file_path, data_string):
-                                # Attempt to parse the JSON string
-                                try:
-                                    data = json.loads(data_string)
-                                except json.JSONDecodeError as e:
-                                    # If an error occurs, print the error and the invalid JSON string
-                                    print("Invalid JSON:", e)
-                                    print(f"Received invalid data: {data_string}")
-                                    return  # Exit the function without appending
-
-                                # Check if the file exists
-                                if Path(file_path).exists():
-                                    # Read the existing content
-                                    with open(file_path, 'r+', encoding='utf-8') as file:
-                                        # Go to the beginning of the file and load the data
-                                        file.seek(0)
-                                        try:
-                                            file_data = json.load(file)
-                                            if isinstance(file_data, list):  # Check if the file contains a list
-                                                # Append the new data and write back to the file
-                                                file_data.append(data)
-                                                file.seek(0)  # Go back to the start of the file
-                                                json.dump(file_data, file, indent=4)
-                                                file.truncate()  # Remove any remaining parts of old data
-                                        except json.JSONDecodeError:
-                                            print("File is not valid JSON, or list is not at the root. Appending not possible.")
-                                else:
-                                    # Create a new file with the data in a list
-                                    with open(file_path, 'w', encoding='utf-8') as file:
-                                        json.dump([data], file, indent=4)
-
-                            # Convert the string to a dictionary
-                            #data_object = json.loads(answer)
-
-                            # Now you can append it to the JSON file
-                            json_file_path = 'illlini3_professors.json'  # Change this to the actual path you want to use
-                            append_to_json_file(json_file_path, answer)
-                    else:
-                        print("Can't find the name in text")
-
-
-        find_names_in_html()
-    
-    # Example of another method that could use the fetched HTML or raw text
-    def process_html(self):
-        # Do something with self.raw_html or self.raw_text
-        pass

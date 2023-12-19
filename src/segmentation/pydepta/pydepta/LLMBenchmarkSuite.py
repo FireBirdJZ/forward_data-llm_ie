@@ -88,8 +88,8 @@ def write_to_file(file_path: str, data: str) -> None:
         file.write(data)
 
 async def main_async() -> None:
-    prompts_file_path = "llm_benchmark_suite/text_analysis/prompt_analysis.txt"
-    output_file_path = "llm_benchmark_suite/text_analysis/output_analysis.txt"
+    prompts_file_path = "llm_benchmark_suite/text_analysis/video_prompt_demo.txt"
+    output_file_path = "llm_benchmark_suite/text_analysis/video_output_demo.txt"
 
     prompts = read_prompts_from_file(prompts_file_path)
     all_responses = await collect_all_responses_async(prompts)

@@ -298,19 +298,18 @@ def main():
     #print(regions)
     #Print the extracted data
     #### For DEBUGGING
-    i = 0
+    #i = 0
     for region in regions:
         print('------------------------------------------------------------------------------------------')
-        i+=1
-        if i <= 20: 
-            continue
-        #else: pass
-            #faculty_data_harvester.find_names_in_region(region.as_plain_texts())
-        #faculty_data_harvester.find_names_in_region(region.as_plain_texts())
+        # i+=1
+        # if i <= 20: 
+        #     continue
+        
         for record in region.as_plain_texts():
-        #print(region.as_html_table())
             print(record)
-        if i == 22: break
+        print("\n\n\n")
+        faculty_data_harvester.find_names_in_region(region.as_plain_texts(), "video_test_comparing_models", "v2_gpt3.5turbo_illini", "txt")
+        #if i == 22: break
 
 if __name__ == "__main__":
     main()
