@@ -1,4 +1,4 @@
-# forward_data-llm_ie In Progress
+# forward_data-llm_ie
 
 ## Overview
 
@@ -121,38 +121,99 @@ pip install -r requirements.txt
 
 You will also need a openai api-key inorder to use gpt3.5turbo which can be stored inside a config.json file.
 
+
 Some of the important files/components of the repo:
-*`src/segmentation/pydepta/pydepta/`: Runs pydepta to classify regions in HTML and extracts professor info with LLM.
-*`src/segmentation/pydepta/pydepta/comparing_models.py`: Class where depta.py calls to classify regions and extract professor info with LLM.
-*'src/segmentation/pydepta/pydepta/LLMBenchmarkSuite.py': File which runs gpt3.5turbo and Beluga on different standarized prompts for IE in inorder to test the capability of each model.
+
+`src/segmentation/pydepta/pydepta/`: Runs pydepta to classify regions in HTML and extracts professor info with LLM.
+
+`src/segmentation/pydepta/pydepta/comparing_models.py`: Class where depta.py calls to classify regions and extract professor info with LLM.
+
+`src/segmentation/pydepta/pydepta/LLMBenchmarkSuite.py`: File which runs gpt3.5turbo and Beluga on different standarized prompts for IE in inorder to test the capability of each model.
 
 
 
 ## Functional Design (Usage)
-Describe all functions / classes that will be available to users of your module. This section should be oriented towards users who want to _apply_ your module! This means that you should **not** include internal functions that won't be useful to the user in this section. You can think of this section as a documentation for the functions of your package. Be sure to also include a short description of what task each function is responsible for if it is not apparent. You only need to provide the outline of what your function will input and output. You do not need to write the pseudo code of the body of the functions. 
 
-* Takes as input a list of strings, each representing a document and outputs confidence scores for each possible class / field in a dictionary
+### FacultyDataHarvester Class
+
+**Overview**
+The `FacultyDataHarvester` class located which can be run from depta.py is designed to facilitate the extraction and processing of faculty-related data from web pages. It provides methods to fetch HTML content, extract text, and identify faculty names and related information.
+
+**Methods**
+
+* `fetch_html_from_url(url: str) -> str`  
+  _Fetches HTML content from the specified URL._
+  - **Input**: A string representing the URL of the web page.
+  - **Output**: A string containing the raw HTML content of the page.
+
+* `save_html_to_file(url: str, folder_path: str = 'saved_faculty_html_files')`  
+  _Saves the fetched HTML content to a file._
+  - **Input**:
+    - `url`: URL of the web page.
+    - `folder_path`: Optional. The directory path where the HTML file will be saved.
+  - **Output**: None. The HTML content is saved to a file in the specified directory.
+
+* `load_html_from_file(url: str) -> str`  
+  _Loads HTML content from a saved file._
+  - **Input**: A string representing the URL of the web page. The URL is used to determine the filename.
+  - **Output**: A string containing the HTML content loaded from the file.
+
+* `extract_text() -> str`  
+  _Extracts and returns the textual content from the loaded HTML._
+  - **Input**: None. Operates on the internal `raw_html` attribute.
+  - **Output**: A string containing the extracted textual content.
+
+* `find_names_in_region(region: List[List[Any]], folder_path: str, file_name: str, write_mode: str = 'txt')`  
+  _Processes the provided region to identify and classify faculty names and related information, and saves the output in the specified format._
+  - **Input**:
+    - `region`: A list of lists containing the data to be processed.
+    - `folder_path`: The directory path where the output file will be saved.
+    - `file_name`: The name of the output file.
+    - `write_mode`: Optional. Specifies the output format ('json' or 'txt').
+  - **Output**: None. The processed data is saved to a file in the specified format.
+
+**Usage Example**
+
 ```python
-    def classify_docs(docs: list[str]):
-        ... 
-        return [
-            { 'cs': cs_score, 'math': math_score, ..., 'chemistry': chemistry_score },
-            ...
-        ]
+harvester = FacultyDataHarvester()
+url = "http://example.com/faculty"
+html_content = harvester.fetch_html_from_url(url)
+harvester.save_html_to_file(url)
+text_content = harvester.extract_text()
+regions= d.extract(html=html_content)
+harvester.find_names_in_region(regions, "output_directory", "faculty_data", "txt")
 ```
 
-* Outputs the weights as a numpy array of shape `(num_classes, num_features)` of the trained neural network 
-```python
-    def get_nn_weights():
-        ...
-        return W
-```
 
+ ### LLM Benchmark Suite - Asynchronous Processing
 
+**Overview**
+This section focuses on asynchronous processing of text analysis using large language models (LLMs). It provides functionality for reading prompts from a file, comparing responses from different models asynchronously, and writing the outputs to a file inside of LLMBenchmarkSuite.py.
+
+**Key Functions**
+
+* `read_prompts_from_file(file_path: str, delimiter: str = "#@@@@#") -> List[str]`  
+  _Reads prompts for text analysis from a specified file._
+  - **Input**: 
+    - `file_path`: Path to the file containing prompts.
+    - `delimiter`: String delimiter used to separate prompts in the file.
+  - **Output**: List of prompts as strings.
+
+* `collect_all_responses_async(prompts: List[str]) -> str`  
+  _Asynchronously collects responses from LLMs for each prompt._
+  - **Input**: List of prompts to process.
+  - **Output**: Concatenated string of all responses.
+
+* `write_to_file(file_path: str, data: str) -> None`  
+  _Writes the given data to a file at the specified path._
+  - **Input**: 
+    - `file_path`: Path to the output file.
+    - `data`: String data to write to the file.
+  - **Output**: None. The data is written to the file.
 
 ## Demo video
 
-Include a link to your demo video, which you upload to our shared Google Drive folder (see the instructions for code submission).
+
 
 
 
@@ -166,7 +227,7 @@ After, We check 3 records at a time inside a region. a record is a list which us
 
 Lastly, we take the returned answer from the language model from the current 3 records and insert it inside a file to store. Then repeat the same steps onto the next 3 records inside that Region.
 
-![design architecture](https://github.com/FireBirdJZ/forward_data-llm_ie/edit/main/diagram.png)
+![design architecture](https://github.com/FireBirdJZ/forward_data-llm_ie/blob/main/diagram.png)
 
 
 
