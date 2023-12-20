@@ -1,4 +1,4 @@
-# forward_data-llm_ie
+# llm-web-extraction
 
 ## Overview
 
@@ -180,7 +180,7 @@ url = "http://example.com/faculty"
 html_content = harvester.fetch_html_from_url(url)
 harvester.save_html_to_file(url)
 text_content = harvester.extract_text()
-regions= d.extract(html=html_content)
+regions = d.extract(html=html_content)
 harvester.find_names_in_region(regions, "output_directory", "faculty_data", "txt")
 ```
 
