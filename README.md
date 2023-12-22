@@ -13,6 +13,7 @@ The Rest of the folders and files were used in exploration and research such as 
 A Break Down of the structure of the repo's file structure:
 ```
 .
+├── diagram.png
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -61,6 +62,10 @@ A Break Down of the structure of the repo's file structure:
     │       │   │       └── video_prompt_demo.txt
     │       │   ├── LLMBenchmarkSuite.py
     │       │   ├── mdr.py
+    │       │   ├── output_depta
+    │       │   │   ├── cmu_depta_output.txt
+    │       │   │   ├── illini_depta_output.txt
+    │       │   │   └── mit_depta_output.txt
     │       │   ├── __pycache__
     │       │   │   ├── comparing_models.cpython-311.pyc
     │       │   │   ├── extract_prof_names.cpython-311.pyc
@@ -94,7 +99,13 @@ A Break Down of the structure of the repo's file structure:
     │       │   ├── trees.py
     │       │   └── video_test_comparing_models
     │       │       ├── gpt3.5turbo_illini.txt
-    │       │       └── v2_gpt3.5turbo_illini.txt
+    │       │       ├── v2.2_gpt3.5turbo_cmu_full.txt
+    │       │       ├── v2.2_gpt3.5turbo_illini_full.txt
+    │       │       ├── v2.2_gpt3.5turbo_mit_full.txt
+    │       │       ├── v2_gpt3.5turbo_illini_full.txt
+    │       │       ├── v2_gpt3.5turbo_illini.txt
+    │       │       ├── v2_gpt3.5turbo_mit_full2.txt
+    │       │       └── v2_gpt3.5turbo_mit_full.txt
     │       ├── README.rst
     │       ├── requirements.txt
     │       ├── runtests.sh
@@ -124,11 +135,15 @@ You will also need a openai api-key inorder to use gpt3.5turbo which can be stor
 
 Some of the important files/components of the repo:
 
-`src/segmentation/pydepta/pydepta/`: Runs pydepta to classify regions in HTML and extracts professor info with LLM.
+`src/segmentation/pydepta/pydepta/depta.py`: Runs pydepta to classify regions in HTML and extracts professor info with LLM.
 
 `src/segmentation/pydepta/pydepta/comparing_models.py`: Class where depta.py calls to classify regions and extract professor info with LLM.
 
 `src/segmentation/pydepta/pydepta/LLMBenchmarkSuite.py`: File which runs gpt3.5turbo and Beluga on different standarized prompts for IE in inorder to test the capability of each model.
+
+`src/segmentation/pydepta/pydepta/output_depta`: Shows examples of complete output from Pydepta for UIUC, MIT, and CMU faculty webpages.
+
+`src/segmentation/pydepta/pydepta/video_test_comparing_models`: Shows results from past experiments of extracting professor info with LLMs. Files starting with v2.2 show the results using the newest version of cot prompt. 
 
 
 
@@ -242,6 +257,8 @@ Lastly, we take the returned answer from the language model from the current 3 r
 
 
 ## Change log
+
+12/22/2023: Added folder to show pydepta output from UIUC, MIT and CMU faculty webpages. Updated V2 prompt to v2.2 to improve the LLM's ability to get research interests that are not null and to better be able to disguish a professor's name from its position; added another example for the llm to use in the chain of thought prompt. Ran extraction with the new prompt for UIUC, MIT, and CMU faculty webpages.
 
 
 
