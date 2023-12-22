@@ -205,7 +205,6 @@ def fetch_html_from_url(url):
 
 def main():
     d = Depta()
-    #url = 'https://search.yahoo.com/search;_ylt=AwrEwhFGyDNik_IAP2pXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZANBMDYzNF8xBHNlYwNwYWdpbmF0aW9u?p=einstein&pz=7&fr=sfp&fr2=p%3As%2Cv%3Asfp%2Cm%3Asb-top&bct=0&b=50&pz=7&bct=0&xargs=0'
     url = 'https://cs.illinois.edu/about/people/all-faculty'
     #url = 'https://www.eecs.mit.edu/role/faculty-cs/'
     #url = 'https://inf.ethz.ch/people/faculty/faculty.html'
@@ -213,8 +212,7 @@ def main():
     #url = 'https://cse.engin.umich.edu/people/faculty/'
     #url = 'https://www.cs.stanford.edu/people/faculty'
     #url = 'https://www.cs.princeton.edu/people/faculty'
-    #url = "https://libguides.marquette.edu/c.php?g=36737&p=233444"
-    #url = "https://cp-algorithms.com/graph/fixed_length_paths.html"
+    # Shopify page can cause depta to crash
     #url = "https://www.shopify.com/blog/ecommerce-seo-beginners-guide" #Returns empty Doc if full html is used, works for ex: [2000:100000ß]
     # Fetch the HTML content from the URL
     #response = requests.get(url)
@@ -226,29 +224,6 @@ def main():
     # text_content = professor_extractor.extract_text()
     #print(html_content)
     #print(text_content)
-
-    #return 1
-    # Extract data regions using Depta
-    #regions: list = d.extract(html=html_content)
-    #print(regions)
-    # Print the extracted data
-    # #### For DEBUGGING
-    # i = 0 # For testing
-    # for region in regions:
-    #     print('------------------------------------------------------------------------------------------')
-    #     #print(region.as_plain_texts())
-    #     i+=1
-    #     if i <= 20: 
-    #         continue
-    #     else: 
-    #         professor_extractor.find_names_in_region(region.as_plain_texts())
-    #     #for record in region.as_plain_texts():
-    #     #print(region.as_html_table())
-    #     #    print(record)
-    #     if i == 22: break
-    # # Now Take set of names and put them in json file
-    # professor_extractor.extract_prof_names_to_json()
-
 
     # Actual Run
     # for region in regions:
@@ -263,29 +238,9 @@ def main():
 
 
 
-    # ## Comparing models
-    # faculty_data_harvester = FacultyDataHarvester()
-    # html_content = faculty_data_harvester.fetch_html_from_url(url)
-    # text_content = faculty_data_harvester.extract_text()
+ 
 
-    # # Extract data regions using Depta
-    # regions: list = d.extract(html=html_content)
-    # print(regions)
-    # #Print the extracted data
-    # #### For DEBUGGING
-    # i = 0 # For testing
-    # for region in regions:
-    #     print('------------------------------------------------------------------------------------------')
-    #     #print(region.as_plain_texts())
-    #     i+=1
-    #     if i <= 20: 
-    #         continue
-    #     else: 
-    #         faculty_data_harvester.find_names_in_region(region.as_plain_texts())
-    #     for record in region.as_plain_texts():
-    #     #print(region.as_html_table())
-    #         print(record)
-    #     if i == 22: break
+  
 
     ## Comparing models
     faculty_data_harvester = FacultyDataHarvester()
@@ -308,7 +263,7 @@ def main():
         for record in region.as_plain_texts():
             print(record)
         print("\n\n\n")
-        faculty_data_harvester.find_names_in_region(region.as_plain_texts(), "video_test_comparing_models", "v2_gpt3.5turbo_illini", "txt")
+        faculty_data_harvester.find_names_in_region(region.as_plain_texts(), "video_test_comparing_models", "v2.2_gpt3.5turbo_illini_full", "txt")
         #if i == 22: break
 
 if __name__ == "__main__":

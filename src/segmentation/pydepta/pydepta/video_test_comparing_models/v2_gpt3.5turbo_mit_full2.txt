@@ -1,0 +1,499 @@
+[
+  {
+    "name": "Devin H. Bailey",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Professor A",
+    "position": null,
+    "research_interests": "Computer Vision"
+  },
+  {
+    "name": "Professor B",
+    "position": "Assistant Professor",
+    "research_interests": "Artificial Intelligence"
+  },
+  {
+    "name": "Professor C",
+    "position": "Professor",
+    "research_interests": "Robotics"
+  },
+  {
+    "name": "Professor D",
+    "position": "Research Scientist",
+    "research_interests": null
+  }
+]
+
+JSON Output:
+[
+  {
+    "name": "Anant Agarwal",
+    "position": "CEO, edX; Professor of EECS;",
+    "research_interests": "Computer Architecture Multicore Processors & Cloud Computing Programming Languages and Software Engineering"
+  },
+  {
+    "name": "Pulkit Agrawal",
+    "position": "Assistant Professor.",
+    "research_interests": "Artificial Intelligence + Machine Learning Graphics and Vision Human-Computer Interaction"
+  },
+  {
+    "name": "Mohammad Alizadeh",
+    "position": "Associate Professor,",
+    "research_interests": "Multicore Processors & Cloud Computing Security and Cryptography Systems and Networking"
+  }
+]
+
+[
+    {
+        "name": "Saman Amarasinghe",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "Artificial Intelligence + Machine Learning, Computer Architecture, Programming Languages and Software Engineering"
+    },
+    {
+        "name": "Arvind",
+        "position": "Charles W. And Jennifer C. Johnson Professor in Electrical Engineering and Computer Science",
+        "research_interests": "Computer Architecture, Programming Languages and Software Engineering, Systems and Networking"
+    },
+    {
+        "name": "Hari Balakrishnan",
+        "position": "Fujitsu Professor in Electrical Engineering and Computer Science",
+        "research_interests": "Security and Cryptography, Systems and Networking, Wireless Networks & Mobile Computing"
+    }
+]
+
+[
+    {
+        "name": "Adam Belay",
+        "position": "Associate Professor",
+        "research_interests": "Computer Architecture Systems and Networking"
+    },
+    {
+        "name": "Robert Berwick",
+        "position": "Professor of CS and Engineering and Computational Linguistics",
+        "research_interests": "AI for Healthcare and Life Sciences Artificial Intelligence + Machine Learning Natural Language and Speech Processing"
+    },
+    {
+        "name": "Michael Carbin",
+        "position": "Associate Professor",
+        "research_interests": "Energy Programming Languages and Software Engineering Security and Cryptography"
+    }
+]
+
+[
+  {
+    "name": "Anantha Chandrakasan",
+    "position": "Dean, MIT School of Engineering; Vannevar Bush Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Adam Chlipala",
+    "position": "Professor",
+    "research_interests": "Programming Languages and Software Engineering Security and Cryptography Systems and Networking"
+  },
+  {
+    "name": "Isaac Chuang",
+    "position": "Professor of EE",
+    "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices Information Science and Systems Nanoscale Materials, Devices, and Systems"
+  }
+]
+
+[
+    {
+        "name": "Henry Corrigan-Gibbs",
+        "position": "Douglas Ross (1954) Career Development Professor of Software Technology, Assistant Professor",
+        "research_interests": "Security and Cryptography Systems and Networking"
+    },
+    {
+        "name": "Constantinos Daskalakis",
+        "position": "Armen Avanessians (1982) Professor",
+        "research_interests": "AI and Society, AI for Healthcare and Life Sciences, Optimization and Game Theory"
+    },
+    {
+        "name": "Christina Delimitrou",
+        "position": "Associate Professor",
+        "research_interests": "Computer Architecture, Computer Science and Artificial Intelligence Laboratory (CSAIL), Cybersecurity"
+    }
+]
+
+[
+  {
+    "name": "Erik Demaine",
+    "position": "Professor of CS and Engineering",
+    "research_interests": "Theory of Computation"
+  },
+  {
+    "name": "Srini Devadas",
+    "position": "Edwin Sibley Webster Professor",
+    "research_interests": "Computer Architecture, Integrated Circuits and Systems Security and Cryptography"
+  },
+  {
+    "name": "Frederic Durand",
+    "position": "Amar Bose Professor of Computing",
+    "research_interests": "Educational Technology, Graphics and Vision"
+  }
+]
+
+[
+   {
+      "name":"Joel Emer Professor",
+      "position":"Professor of Practice in EECS",
+      "research_interests":"null"
+   },
+   {
+      "name":"Mohsen Ghaffari Steven G. (1968) and Renee Finn Career Development Professor",
+      "position":"Associate Professor",
+      "research_interests":"null"
+   },
+   {
+      "name":"Manya Ghobadi Assistant Professor",
+      "position":"null",
+      "research_interests":"Artificial Intelligence + Machine Learning Communications Systems Systems and Networking"
+   }
+]
+
+[
+  {
+    "name": "David Gifford",
+    "position": "Professor of CS and Engineering (Post-Tenure)",
+    "research_interests": "AI+D and CS"
+  },
+  {
+    "name": "Shafrira Goldwasser",
+    "position": "RSA Professor",
+    "research_interests": "Security and Cryptography Theory of Computation"
+  },
+  {
+    "name": "W. Eric L Grimson",
+    "position": "Chancellor for Academic Advancement; Interim Vice President for Open Learning; Bernard M. Gordon Professor of Medical Engineering; Professor of Computer Science and Engineering",
+    "research_interests": "CS and AI+D"
+  }
+]
+
+[
+    {
+        "name": "John Guttag",
+        "position": "Dugald C. Jackson Professor in Electrical Engineering",
+        "research_interests": "AI for Healthcare and Life Sciences Biological and Medical Devices and Systems Graphics and Vision"
+    },
+    {
+        "name": "Song Han",
+        "position": "Associate Professor",
+        "research_interests": "Artificial Intelligence + Machine Learning Computer Architecture Integrated Circuits and Systems"
+    },
+    {
+        "name": "Sam Hopkins",
+        "position": "Jamieson Career Development Professor in Electrical Engineering and Computer Science; Assistant Professor",
+        "research_interests": "Theory of Computation"
+    }
+]
+
+{
+   "professors": [
+      {
+         "name": "Daniel Huttenlocher",
+         "position": "Dean, MIT Stephen A. Schwarzman College of Computing; Henry Ellis Warren (1894) Professor",
+         "research_interests": "AI and Society"
+      },
+      {
+         "name": "Piotr Indyk",
+         "position": "Thomas D. and Virginia W. Cabot Professor",
+         "research_interests": "Theory of Computation"
+      },
+      {
+         "name": "Daniel Jackson",
+         "position": "Professor of CS and Engineering",
+         "research_interests": "Human-Computer Interaction, Programming Languages and Software Engineering, Systems and Networking"
+      }
+   ]
+}
+
+[
+    {
+        "name": "M. Frans Kaashoek",
+        "position": "Charles A. Piper (1935) Professor",
+        "research_interests": "Computer Architecture Security and Cryptography Systems and Networking"
+    },
+    {
+        "name": "David Karger",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "Educational Technology Human-Computer Interaction Theory of Computation"
+    },
+    {
+        "name": "Dina Katabi",
+        "position": "Thuan (1990) and Nicole Pham Professor",
+        "research_interests": "AI for Healthcare and Life Sciences Graphics and Vision Systems and Networking"
+    }
+]
+
+[
+  {
+    "name": "Manolis Kellis",
+    "position": "Professor of CS",
+    "research_interests": "AI for Healthcare and Life Sciences"
+  },
+  {
+    "name": "Tim Kraska",
+    "position": "Associate Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning Systems and Networking"
+  },
+  {
+    "name": "Butler Lampson",
+    "position": "Adjunct Professor of CS and Engineering",
+    "research_interests": "Computer Architecture Systems and Networking"
+  }
+]
+
+Here are the JSON objects for each professor:
+
+1. Steven Leeb Emanuel E. Landsman
+{
+   "name": "Steven Leeb Emanuel E. Landsman",
+   "position": "Professor, [EE and CS]",
+   "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices Energy"
+}
+
+2. Charles Leiserson
+{
+   "name": "Charles Leiserson",
+   "position": "Edwin Sibley Webster Professor; [CS]",
+   "research_interests": "Artificial Intelligence + Decision making"
+}
+
+3. Barbara Liskov
+{
+   "name": "Barbara Liskov",
+   "position": "Insitute Professor (post tenure)",
+   "research_interests": "Programming Languages and Software Engineering"
+}
+
+[
+  {
+    "name": "Kuikui Liu",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Nancy Lynch",
+    "position": "NEC Professor of Software Science and Engineering (Post-Tenure)",
+    "research_interests": "Theory of Computation"
+  },
+  {
+    "name": "Samuel Madden",
+    "position": "Distinguished College of Computing Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning Systems and Networking"
+  }
+]
+
+[
+    {
+        "name": "Aleksander Mądry",
+        "position": "Cadence Design Systems Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Wojciech Matusik",
+        "position": "Professor of EECS",
+        "research_interests": "null"
+    },
+    {
+        "name": "Muriel Médard",
+        "position": "NEC Professor of Software Science and Engineering",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Silvio Micali",
+        "position": "Ford Foundation Professor of Engineering",
+        "research_interests": "Security and Cryptography Theory of Computation"
+    },
+    {
+        "name": "Robert Miller",
+        "position": "Education Officer for Computer Science, Distinguished Professor in EECS",
+        "research_interests": "Human-Computer Interaction Programming Languages and Software Engineering"
+    },
+    {
+        "name": "Robert Morris",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "Systems and Networking"
+    }
+]
+
+[
+    {
+        "name": "Stefanie Mueller",
+        "position": "TIBCO Founders Professor, Associate Professor [CS and EE]",
+        "research_interests": "Computational Fabrication and Manufacturing, Human-Computer Interaction, Robotics"
+    },
+    {
+        "name": "Anand V Natarajan",
+        "position": "ITT Career Development Professor in Computer Technology, Assistant Professor, [CS]",
+        "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices, Theory of Computation"
+    },
+    {
+        "name": "Alan Oppenheim",
+        "position": "Ford Professor of Engineering (Post-Tenure), [EE and CS, AI+D]",
+        "research_interests": "Quantum Computing, Communication, and Sensing, Signal Processing, Systems Theory, Control, and Autonomy"
+    }
+]
+
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should have keys for 'name', 'position', and 'research_interests'. If any of these elements are missing, the value should be set to 'null'.
+
+Here is the JSON object for the first professor:
+
+{
+  "name": "Asu Ozdaglar",
+  "position": "EECS Department Head; MIT Schwarzman College of Computing Deputy Dean of Academics; MathWorks Professor of EECS, [AI+D and EE, CS]",
+  "research_interests": "AI and Society Artificial Intelligence + Machine Learning Optimization and Game Theory"
+}
+
+Here is the JSON object for the second professor:
+
+{
+  "name": "Jonathan Ragan-Kelley",
+  "position": "Associate Professor, [CS and AI+D]",
+  "research_interests": "Graphics and Vision Programming Languages and Software Engineering"
+}
+
+Here is the JSON object for the third professor:
+
+{
+  "name": "Manish Raghavan",
+  "position": "Drew Houston (2005) Career Development Professor, Assistant Professor / Shared Appointment in Sloan School of Management, [CS]",
+  "research_interests": "AI and Society Artificial Intelligence + Machine Learning Optimization and Game Theory"
+}
+
+[
+    {
+        "name": "Martin Rinard",
+        "position": "Professor of CS and Engineering",
+        "research_interests": null
+    },
+    {
+        "name": "Ronald Rivest",
+        "position": "Institute Professor (Post-Tenure); Professor Post-Tenure of Computer Science and Engineering",
+        "research_interests": null
+    },
+    {
+        "name": "Ronitt Rubinfeld",
+        "position": "Edwin Sibley Webster Professor",
+        "research_interests": null
+    }
+]
+
+[
+   {
+      "name":"Daniela Rus",
+      "position":"Director, CSAIL; MIT Schwarzman College of Computing Deputy Dean of Research; Andrew (1956) and Erna Viterbi Professor, [AI+D and CS]",
+      "research_interests":"null"
+   },
+   {
+      "name":"Daniel Sanchez",
+      "position":"Professor of EECS, [CS and EE]",
+      "research_interests":"null"
+   },
+   {
+      "name":"Arvind Satyanarayan",
+      "position":"Associate Professor, [CS]",
+      "research_interests":"null"
+   }
+]
+
+[
+    {
+        "name": "Nir Shavit",
+        "position": "Professor of EECS",
+        "research_interests": "null"
+    },
+    {
+        "name": "Julian Shun",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Armando Solar-Lezama",
+        "position": "Distinguished Professor of Computing, MIT Schwarzman College of Computing; Professor of EECS",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Justin Solomon",
+    "position": "Associate Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning Graphics and Vision Robotics"
+  },
+  {
+    "name": "Michael Stonebraker",
+    "position": "Adjunct Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Gerald Sussman",
+    "position": "Panasonic Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning"
+  }
+]
+
+Here is the JSON output for each professor:
+
+1. Vivienne Sze:
+{
+    "name": "Vivienne Sze",
+    "position": "Associate Professor of EECS",
+    "research_interests": "Artificial Intelligence + Machine Learning"
+}
+
+2. Peter Szolovits:
+{
+    "name": "Peter Szolovits",
+    "position": "Professor of Computer Science and Engineering",
+    "research_interests": "AI for Healthcare and Life Sciences"
+}
+
+3. Vinod Vaikuntanathan:
+{
+    "name": "Vinod Vaikuntanathan",
+    "position": "Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning"
+}
+
+[
+    {
+        "name": "Andrew Wang",
+        "position": "Lecturer",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ryan Williams",
+        "position": "Professor of EECS",
+        "research_interests": "null"
+    },
+    {
+        "name": "Virginia Vassilevska Williams",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Mengjia Yan",
+    "position": "Homer A. Burnell Career Development Professor, Assistant Professor",
+    "research_interests": "Computer Architecture Security and Cryptography"
+  },
+  {
+    "name": "Nickolai Zeldovich",
+    "position": "Professor of EECS",
+    "research_interests": "Programming Languages and Software Engineering Security and Cryptography Systems and Networking"
+  },
+  {
+    "name": "Victor Zue",
+    "position": "Delta Electronics Professor of EECS (Post-Tenure)",
+    "research_interests": "Educational Technology Human-Computer Interaction Natural Language and Speech Processing"
+  }
+]
+

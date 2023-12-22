@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Acar, Umut",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Ada, Anil",
+    "position": "Associate Teaching Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Akoglu, Leman",
+    "position": "Associate Professor, Affiliated Faculty",
+    "research_interests": null
+  }
+]
+
+{
+    "name": "Aldrich, Jonathan",
+    "position": "Professor, Affiliated Faculty",
+    "research_interests": "null"
+}
+{
+    "name": "Amvrosiadis, George",
+    "position": "Associate Research Professor, Affiliated Faculty",
+    "research_interests": "null"
+}
+{
+    "name": "Andersen, David",
+    "position": "Professor",
+    "research_interests": "null"
+}
+
+[
+    {
+        "name": "Anderson, Daniel",
+        "position": "Assistant Teaching Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Balcan, Maria",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Balzer, Stephanie",
+        "position": "Assistant Research Professor",
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Beckmann, Nathan",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Berger, Daniel",
+        "position": "Adjunct Scientist",
+        "research_interests": "null"
+    },
+    {
+        "name": "Blelloch, Guy",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Blum, Manuel",
+        "position": "University Professor Emeritus",
+        "research_interests": null
+    },
+    {
+        "name": "Bogart, Christopher",
+        "position": "Systems Scientist",
+        "research_interests": null
+    },
+    {
+        "name": "Brookes, Stephen",
+        "position": "Professor",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "David Brumley",
+    "position": "Professor of ECE",
+    "research_interests": null
+  },
+  {
+    "name": "Randal Bryant",
+    "position": "Faculty Emeritus",
+    "research_interests": null
+  },
+  {
+    "name": "Jacobo Carrasquel",
+    "position": "Associate Teaching Professor Emeritus",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Cervesato, Iliano",
+        "position": "Teaching Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Chen, Tianqi",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Chrysanthis, Panos",
+        "position": "Adjunct Faculty",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Vincent Conitzer",
+    "position": "Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Thomas Cortina",
+    "position": "Teaching Professor, Associate Dean for Undergraduate Programs",
+    "research_interests": "null"
+  },
+  {
+    "name": "Keenan Crane",
+    "position": "Associate Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Karl Crary",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Roger Dannenberg",
+        "position": "Professor Emeritus",
+        "research_interests": "null"
+    },
+    {
+        "name": "Henry DeYoung",
+        "position": "Affiliated Special Faculty",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Gianni Di Caro",
+    "position": "Associate Teaching Professor of Computer Science (Qatar)",
+    "research_interests": null
+  },
+  {
+    "name": "Chris Donahue",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Dave Eckhardt",
+    "position": "Teaching Professor",
+    "research_interests": null
+  }
+]
+
+{
+    "professors": [
+        {
+            "name": "Michael Erdmann",
+            "position": "Professor, Computer Science and Robotics",
+            "research_interests": "null"
+        },
+        {
+            "name": "Christos Faloutsos",
+            "position": "Professor",
+            "research_interests": "null"
+        },
+        {
+            "name": "Giulia Fanti",
+            "position": "Assistant Professor, Affiliated Faculty",
+            "research_interests": "null"
+        }
+    ]
+}
+
+[
+  {
+    "name": "Fatahalian, Kayvon",
+    "position": "Adjunct Faculty",
+    "research_interests": null
+  },
+  {
+    "name": "Fredrikson, Matt",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Frieze, Alan",
+    "position": "University Professor, Affiliated Faculty",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Ganger, Gregory Professor",
+    "position": "Affiliated Faculty",
+    "research_interests": null
+  },
+  {
+    "name": "Garlan, David Professor",
+    "position": null,
+    "research_interests": null
+  },
+  {
+    "name": "Gibbons, Phillip Professor",
+    "position": null,
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Gibson, Garth",
+        "position": "Consulting Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gkioulekas, Ioannis",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Gligor, Virgil",
+        "position": "Professor, Affiliated Faculty",
+        "research_interests": "Mehrabian Collaborative Innovation Center"
+    }
+]
+
+[
+  {
+    "name": "Seth Goldstein",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Vipul Goyal",
+    "position": "Adjunct Faculty",
+    "research_interests": null
+  },
+  {
+    "name": "Anupam Gupta",
+    "position": "Professor",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Guruswami, Venkatesan",
+    "position": "Adjunct Faculty",
+    "research_interests": null
+  },
+  {
+    "name": "Haeupler, Bernhard",
+    "position": "Adjunct Faculty",
+    "research_interests": null
+  },
+  {
+    "name": "Hammoud, Mohammad",
+    "position": "Assistant Teaching Professor of Computer Science (Qatar)",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Harchol-Balter, Mor",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Harper, Robert",
+        "position": "Professor",
+        "research_interests": null
+    }
+]
+

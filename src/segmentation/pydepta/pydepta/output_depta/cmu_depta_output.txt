@@ -1,0 +1,98 @@
+HTML content loaded from saved_faculty_html_files/csd.cmu.edu.html
+------------------------------------------------------------------------------------------
+['About', 'Prospective Students']
+['People', 'Academics']
+['Research', 'Search']
+
+
+
+
+------------------------------------------------------------------------------------------
+['All CSD', '  |  ', 'All Faculty', '  |  ', 'Teaching Faculty', ' | ']
+['Emeritus Faculty', ' | ', 'Staff', '  |  ', 'Doctoral', '  |  ']
+
+
+
+
+------------------------------------------------------------------------------------------
+['Acar, Umut', 'Associate Professor        ', '9101 Gates and Hillman Centers\n(412) 268-6791\n', 'uacar@andrew.cmu.edu']
+['Ada, Anil', 'Associate Teaching Professor        ', '6215 Gates and Hillman Centers\n(412) 268-3835\n', 'aada@andrew.cmu.edu']
+['Akoglu, Leman', 'Associate Professor, Affiliated Faculty        ', '2118C Hamburg Hall\n(412) 268-3043\n', 'lakoglu@andrew.cmu.edu']
+['Aldrich, Jonathan', 'Professor, Affiliated Faculty        ', '422 TCS Hall\n(412) 268-7278\n', 'aldrich@cs.cmu.edu']
+['Amvrosiadis, George', 'Associate Research Professor, Affiliated Faculty        ', '2311 Mehrabian Collaborative Innovation Center\n\n', 'gamvrosi@andrew.cmu.edu']
+['Andersen, David', 'Professor        ', '9109 Gates and Hillman Centers\n(412) 268-3064\n', 'dga2@andrew.cmu.edu']
+['Anderson, Daniel', 'Assistant Teaching Professor        ', '4124 Gates and Hillman Centers\n\n', 'dlanders@andrew.cmu.edu']
+['Balcan, Maria', 'Professor        ', '8205 Gates and Hillman Centers\n(412) 268-5295\n', 'mbalcan@andrew.cmu.edu']
+['Balzer, Stephanie', 'Assistant Research Professor        ', '7125 Gates and Hillman Centers\n\n', 'balzers@andrew.cmu.edu']
+['Beckmann, Nathan', 'Associate Professor        ', '9021 Gates and Hillman Centers\n(412) 268-7412\n', 'beckmann@andrew.cmu.edu']
+['Berger, Daniel', 'Adjunct Scientist        ', ' \n\n', 'dberger1@andrew.cmu.edu']
+['Blelloch, Guy', 'Professor        ', '9211 Gates and Hillman Centers\n(412) 268-6245\n', 'gb1y@andrew.cmu.edu']
+['Blum, Manuel', 'University Professor Emeritus        ', '5013 Gates and Hillman Centers\n(412) 268-3742\n', 'mblum@andrew.cmu.edu']
+['Bogart, Christopher', 'Systems Scientist        ', '7119 Gates and Hillman Centers\n(412) 268-8059\n', 'cbogart@andrew.cmu.edu']
+['Brookes, Stephen', 'Professor        ', '9017 Gates and Hillman Centers\n(412) 268-8820\n', 'sb21@andrew.cmu.edu']
+['Brumley, David', 'Professor of ECE, Affiliated Faculty        ', '2202 Mehrabian Collaborative Innovation Center\n(412) 268-3851\n', 'dbrumley@andrew.cmu.edu']
+['Bryant, Randal', 'Faculty Emeritus        ', ' \n(412) 268-8821\n', 'rb3l@andrew.cmu.edu']
+['Carrasquel, Jacobo', 'Associate Teaching Professor Emeritus        ', '7007 Gates and Hillman Centers\n(412) 268-6729\n', 'jacobo@andrew.cmu.edu']
+['Cervesato, Iliano', 'Teaching Professor        ', '6007 Gates and Hillman Centers\n\n', 'iliano@andrew.cmu.edu']
+['Chen, Tianqi', 'Assistant Professor        ', ' Gates and Hillman Centers\n\n', 'tianqich@andrew.cmu.edu']
+['Chrysanthis, Panos', 'Adjunct Faculty        ', ' \n\n', 'panos@andrew.cmu.edu']
+['Conitzer, Vincent', 'Professor        ', '7113 Gates and Hillman Centers\n\n', 'vconitze@andrew.cmu.edu']
+['Cortina, Thomas', 'Teaching Professor, Associate Dean for Undergraduate Programs        ', '4117 Gates and Hillman Centers\n(412) 268-3514\n', 'tcortina@andrew.cmu.edu']
+['Crane, Keenan', 'Associate Professor        ', '215 Smith Hall\n(412) 268-1120\n', 'keenanc@andrew.cmu.edu']
+['Crary, Karl', 'Associate Professor, Director of Doctoral Programs        ', '9217 Gates and Hillman Centers\n(412) 268-7687\n', 'crary@andrew.cmu.edu']
+['Dannenberg, Roger', 'Professor Emeritus        ', ' \n\n', 'rbd@andrew.cmu.edu']
+['DeYoung, Henry', 'Affiliated Special Faculty        ', ' \n\n', 'hdeyoung@andrew.cmu.edu']
+['Di Caro, Gianni', 'Associate Teaching Professor of Computer Science (Qatar)        ', ' \n\n', 'gdicaro@andrew.cmu.edu']
+['Donahue, Chris', 'Assistant Professor        ', '7127 Gates and Hillman Centers\n(412) 268-1969\n', 'chrisdon@andrew.cmu.edu']
+['Eckhardt, Dave', 'Teaching Professor        ', '4001 Gates and Hillman Centers\n(412) 268-6720\n', 'de0u@andrew.cmu.edu']
+['Erdmann, Michael', 'Professor, Computer Science and Robotics        ', '9203 Gates and Hillman Centers\n(412) 268-7883\n', 'me51@andrew.cmu.edu']
+['Faloutsos, Christos', 'Professor        ', '7003 Gates and Hillman Centers\n(412) 268-1457\n', 'christos@andrew.cmu.edu']
+['Fanti, Giulia', 'Assistant Professor, Affiliated Faculty        ', '2118 Mehrabian Collaborative Innovation Center\n(412) 268-4254\n', 'gfanti@andrew.cmu.edu']
+['Fatahalian, Kayvon', 'Adjunct Faculty        ', ' \n\n', 'kayvonf@andrew.cmu.edu']
+['Fredrikson, Matt', 'Associate Professor        ', '2126 Mehrabian Collaborative Innovation Center\n\n', 'mfredrik@andrew.cmu.edu']
+['Frieze, Alan', 'University Professor, Affiliated Faculty        ', '6204 Wean Hall\n(412) 268-8476\n', 'af1p@andrew.cmu.edu']
+['Ganger, Gregory', 'Professor, Affiliated Faculty        ', '2208 Mehrabian Collaborative Innovation Center\n(412) 268-1297\n', 'ganger@andrew.cmu.edu']
+['Garlan, David', 'Professor        ', '420 TCS Hall\n(412) 268-5056\n', 'dg4d@andrew.cmu.edu']
+['Gibbons, Phillip', 'Professor        ', '7221 Gates and Hillman Centers\n(412) 268-6354\n', 'pgibbons@andrew.cmu.edu']
+['Gibson, Garth', 'Consulting Professor        ', ' \n\n', 'garth@andrew.cmu.edu']
+['Gkioulekas, Ioannis', 'Assistant Professor        ', '225 Smith Hall\n\n', 'igkioule@andrew.cmu.edu']
+['Gligor, Virgil', 'Professor, Affiliated Faculty        ', '2123 Mehrabian Collaborative Innovation Center\n(412) 268-9833\n', 'virgil@andrew.cmu.edu']
+['Goldstein, Seth', 'Associate Professor        ', '7111 Gates and Hillman Centers\n(412) 268-3828\n', 'sethg@andrew.cmu.edu']
+['Goyal, Vipul', 'Adjunct Faculty        ', ' \n\n', 'vgoyal1@andrew.cmu.edu']
+['Gupta, Anupam', 'Professor        ', '7203 Gates and Hillman Centers\n(412) 268-7127\n', 'ag@andrew.cmu.edu']
+['Guruswami, Venkatesan', 'Adjunct Faculty        ', ' \n\n', 'venkatg@andrew.cmu.edu']
+['Haeupler, Bernhard', 'Adjunct Faculty        ', ' \n\n', 'haeupler@andrew.cmu.edu']
+['Hammoud, Mohammad', 'Assistant Teaching Professor of Computer Science (Qatar)        ', ' \n\n', 'mhhammou@andrew.cmu.edu']
+['Harchol-Balter, Mor', 'Professor        ', '7207 Gates and Hillman Centers\n(412) 268-7893\n', 'harchol@andrew.cmu.edu']
+['Harper, Robert', 'Professor        ', '9207 Gates and Hillman Centers\n(412) 268-3675\n', 'rwh@andrew.cmu.edu']
+
+
+
+
+------------------------------------------------------------------------------------------
+['\n              Current page\n            ', '1']
+['\n              Page\n            ', '2']
+['\n              Page\n            ', '3']
+
+
+
+
+------------------------------------------------------------------------------------------
+['Next page', 'Next ›']
+['Last page', 'Last »']
+
+
+
+
+------------------------------------------------------------------------------------------
+['Student Resources', 'Faculty Resources']
+['Staff Resources', 'Key Contacts']
+['Jobs in CSD', 'Events']
+['News', 'Search']
+
+
+
+
+------------------------------------------------------------------------------------------
+[]
+[]

@@ -1,0 +1,1563 @@
+[
+  {
+    "name": "Tarek Abdelzaher",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Sohaib and Sara Abbasi",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Professor and Willett Faculty Scholar Sarita V. Adve",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Richard T. Cheng",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Vikram Adve",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Donald B. Gillies Professor in Computer Science",
+    "position": "null",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Gul A. Agha",
+    "position": "Research Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Narendra Ahuja",
+    "position": "Professor Emeritus",
+    "research_interests": "null"
+  },
+  {
+    "name": "Donald Biggar Willett",
+    "position": "Professor Emeritus in Electrical and Computer Engineering",
+    "research_interests": "null"
+  },
+  {
+    "name": "Ram Alagappan",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+  }
+]
+
+I will start by creating a JSON object for each professor using the provided text data. I will extract the relevant information for each professor and handle missing information by setting the value to 'null'.
+
+Here is the step-by-step process to create the JSON objects:
+
+Step 1: Extracting Names
+- Extract the first element from each list for the name.
+
+Step 2: Extracting Positions
+- Extract the second element for the position, using 'null' if it is missing.
+
+Step 3: Extracting Research Interests
+- Extract the third element for research interests, using 'null' if it is missing.
+
+Creating Individual JSON Objects:
+- For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+- Replace missing elements with 'null'.
+
+Building the Final JSON Output:
+- Combine these individual JSON objects into a single JSON array.
+- The final output should be a clean JSON array without any additional nesting.
+
+I will now begin creating the JSON objects for each professor using the provided text.
+
+[
+  {
+    "name": "Mark A. Anastasio",
+    "position": "Donald Biggar Willett Professor in Engineering Head, Department of Bioengineering",
+    "research_interests": "null"
+  },
+  {
+    "name": "Lawrence Angrave",
+    "position": "Teaching Professor, Gies RC Evans Innovation Fellow, CITL Fellow",
+    "research_interests": "null"
+  },
+  {
+    "name": "Tal August",
+    "position": "Assistant Professor (starting August 2024)",
+    "research_interests": "null"
+  }
+]
+
+{
+    "professors": [
+        {
+            "name": "Brian P. Bailey",
+            "position": "null",
+            "research_interests": "null"
+        },
+        {
+            "name": "Professor Michael Bailey",
+            "position": "null",
+            "research_interests": "null"
+        },
+        {
+            "name": "Adjunct Professor Arindam Banerjee",
+            "position": "null",
+            "research_interests": "null"
+        },
+        {
+            "name": "Founder Professor in Engineering",
+            "position": "null",
+            "research_interests": "null"
+        }
+    ]
+}
+
+[
+   {
+      "name":"Adam Bates",
+      "position":"Associate Professor",
+      "research_interests":null
+   },
+   {
+      "name":"Mattox Alan Beckman",
+      "position":"Teaching Associate Professor",
+      "research_interests":null
+   },
+   {
+      "name":"Suma Bhat",
+      "position":"Assistant Professor, Electrical and Computer Engineering",
+      "research_interests":null
+   }
+]
+
+[
+  {
+    "name": "Catherine Lesley Blake",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Nikita Borisov",
+    "position": "Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Timothy Bretl",
+    "position": "Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Robert J. Brunner",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Marco Caccamo",
+        "position": "Adjunct Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Matthew Caesar",
+        "position": "Professor",
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Roy H. Campbell",
+        "position": "Sohaib and Sara Abbasi Professor Emeritus Franck",
+        "research_interests": null
+    },
+    {
+        "name": "Cappello",
+        "position": "null",
+        "research_interests": null
+    },
+    {
+        "name": "Chacko",
+        "position": "null",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Geoffrey Werner Challen",
+    "position": "Teaching Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Timothy Moon-Yew Chan",
+    "position": "Founder Professor in Engineering",
+    "research_interests": null
+  },
+  {
+    "name": "Karthekeyan Chandrasekaran",
+    "position": "Associate Professor, Industrial and Enterprise Systems Engineering",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Varun Chandrasekaran",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Eshwar Chandrasekharan",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Kevin Chenchuan Chang",
+    "position": "Professor",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Chandra Sekhar Chekuri",
+    "position": "Paul and Cynthia Saylor Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Deming Chen",
+    "position": "Professor, Electrical and Computer Engineering",
+    "research_interests": "null"
+  },
+  {
+    "name": "Wendy K Tam Cho",
+    "position": "Professor, Political Science",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Girish Chowdhary",
+    "position": "Associate Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Camille Cobb",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Benjamin Cosman",
+    "position": "Teaching Assistant Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Katie Cunningham",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Ryan Matthew Cunningham",
+    "position": "Lecturer",
+    "research_interests": null
+  },
+  {
+    "name": "David M. Dalpiaz",
+    "position": "Teaching Associate Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Gerald F. DeJong, II",
+        "position": "Professor Emeritus",
+        "research_interests": null
+    },
+    {
+        "name": "Payam Delgosha",
+        "position": "Research Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Jana Diesner",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    }
+]
+
+Name: Daniel Dig
+Position: Adjunct Assistant Professor
+Research Interests: null
+
+JSON Object:
+{
+    "name": "Daniel Dig",
+    "position": "Adjunct Assistant Professor",
+    "research_interests": null
+}
+
+Name: Minh N. Do
+Position: Professor, Electrical and Computer Engineering
+Research Interests: null
+
+JSON Object:
+{
+    "name": "Minh N. Do",
+    "position": "Professor, Electrical and Computer Engineering",
+    "research_interests": null
+}
+
+Name: Katie Driggs-Campbell
+Position: Assistant Professor, Electrical & Computer Engineering
+Research Interests: null
+
+JSON Object:
+{
+    "name": "Katie Driggs-Campbell",
+    "position": "Assistant Professor, Electrical & Computer Engineering",
+    "research_interests": null
+}
+
+[
+    {
+        "name": "Geir Dullerud",
+        "position": "Professor, Mechanical Science and Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Mohammed El-Kebir",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Jeff Erickson",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Sohaib and Sara Abbasi",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Carl Evans", 
+        "position": "Teaching Assistant Professor", 
+        "research_interests": "null"
+    }, 
+    {
+        "name": "Wade A. Fagen-Ulmschneider", 
+        "position": "Teaching Professor", 
+        "research_interests": "null"
+    }, 
+    {
+        "name": "Reza Farivar", 
+        "position": "Adjunct Research Assistant Professor", 
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Paul Fischer",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Margaret M. Fleck",
+        "position": "Teaching Professor and Director of Undergraduate Programs",
+        "research_interests": null
+    },
+    {
+        "name": "Christopher Wardlaw Fletcher",
+        "position": "Associate Professor",
+        "research_interests": null
+    }
+]
+
+Here is a Python code that can be used to process the text and create JSON objects for each professor:
+
+```python
+import json
+
+text = """
+Michael A. Forbes
+Assistant Professor
+David Forsyth
+Fulton Watson Copp Chair in Computer Science
+H. George Friedman
+Professor Emeritus
+"""
+
+# Split the text into individual lines
+lines = text.split("\n")
+
+# Initialize an empty list to store the JSON objects
+json_objects = []
+
+# Iterate over the lines and process each professor's details
+for i in range(0, len(lines), 2):
+    professor = {}
+    professor['name'] = lines[i].strip()
+    professor['position'] = lines[i+1].strip() if i+1 < len(lines) else None
+    professor['research_interests'] = None
+    json_objects.append(professor)
+
+# Convert the list of JSON objects to a JSON array
+json_output = json.dumps(json_objects)
+
+# Print the resulting JSON array
+print(json_output)
+```
+
+The above code will produce the following JSON output:
+
+```
+[
+    {
+        "name": "Michael A. Forbes",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "David Forsyth",
+        "position": "Fulton Watson Copp Chair in Computer Science",
+        "research_interests": null
+    },
+    {
+        "name": "H. George Friedman",
+        "position": "Professor Emeritus",
+        "research_interests": null
+    }
+]
+```
+
+Please note that the code assumes that the text data is provided in the same format as in the example. Also, the JSON objects are stored in a list and then converted to a JSON array for easier processing or storage.
+
+{
+    "professors": [
+        {
+            "name": "Aishwarya Ganesan",
+            "position": "Assistant Professor",
+            "research_interests": null
+        },
+        {
+            "name": "Jugal Garg",
+            "position": "Assistant Professor, Industrial and Enterprise Systems Engineering",
+            "research_interests": null
+        },
+        {
+            "name": "Maria Jesus Garzaran",
+            "position": "Adjunct Research Associate Professor",
+            "research_interests": null
+        }
+    ]
+}
+
+[
+    {
+        "name": "Yael Gertner",
+        "position": "Teaching Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Saugata Ghose",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Roxana Girju",
+        "position": "Professor",
+        "research_interests": "Linguistics"
+    }
+]
+
+[
+  {
+    "name": "Brighten Godfrey",
+    "position": "Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Mani Golparvar Fard",
+    "position": "Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Fernando Granha Jeronimo",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Professor (starting August 2024)",
+    "position": null,
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Bill Gropp",
+        "position": "Grainger Distinguished Chair",
+        "research_interests": null
+    },
+    {
+        "name": "Kaiyu Guan",
+        "position": "Associate Professor",
+        "research_interests": "Natural Resources and Environmental Sciences"
+    },
+    {
+        "name": "Liangyan Gui",
+        "position": "Research Assistant Professor",
+        "research_interests": null
+    }
+]
+
+Below is the solution to create JSON objects for each professor using the provided text data:
+
+JSON Output:
+[
+    {
+        "name": "Carl Gunter",
+        "position": "George and Ann Fisher Distinguished Professor in Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Elsa Gunter",
+        "position": "Research Professor and Senior Lecturer",
+        "research_interests": "null"
+    },
+    {
+        "name": "Indranil Gupta",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Saurabh Gupta",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Dilek Hakkani Tur",
+        "position": "Professor (starting January 2024)",
+        "research_interests": null
+    },
+    {
+        "name": "Jiawei Han",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Michael Aiken",
+        "position": "Chair",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Mehdi T. Harandi",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Sariel Har-Peled",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Donald Biggar Willett",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "John C. Hart",
+    "position": "null",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Mark Hasegawa-Johnson",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Kris K. Hauser",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Jing Rui He",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "David Heath",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Michael T. Heath",
+    "position": "Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Fulton Watson Copp Chair Emeritus",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Cinda Heeren",
+    "position": "Adjunct Teaching Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Geoffrey Lindsay Herman",
+        "position": "Severns Teaching Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Julia Hockenmaier",
+        "position": "Professor and Willett Faculty Scholar",
+        "research_interests": "null"
+    },
+    {
+        "name": "Derek W. Hoiem",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Yih-Chun Hu",
+        "position": "Associate Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Jian Huang",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Yun Huang",
+        "position": "Associate Professor",
+        "research_interests": "Information Sciences"
+    }
+]
+
+[
+    {
+        "name": "Wen-mei Hwu",
+        "position": "AMD Jerry Sanders Chair Emeritus",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ravishankar K. Iyer",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Reyhaneh Jabbarvand",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Sheldon Howard Jacobson",
+    "position": "Founder Professor in Engineering",
+    "research_interests": "null"
+  },
+  {
+    "name": "Heng Ji",
+    "position": "Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Nan Jiang",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Laxmikant V. Kale",
+        "position": "Research Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Paul and Cynthia Saylor",
+        "position": "Professor Emeritus",
+        "research_interests": null
+    },
+    {
+        "name": "Samuel N. Kamin",
+        "position": "Professor Emeritus",
+        "research_interests": null
+    },
+    {
+        "name": "Daniel Kang",
+        "position": "Assistant Professor",
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Karrie Karahalios",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Daniel S. Katz",
+        "position": "Research Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Dakshita Khurana",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Nam Sung Kim",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Volodymyr Kindratenko",
+    "position": "Research Associate Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Alex Kirlik",
+    "position": "Professor Emeritus",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Andreas Paul Eberhard Kloeckner",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Alexandra Kolla",
+    "position": "Adjunct Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Sanmi Koyejo",
+    "position": "Adjunct Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Bill Kramer",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Research Professor Robin Hillary Kravets",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Professor David J. Kuck",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Professor Emeritus",
+        "position": null,
+        "research_interests": null
+    }
+]
+
+{
+  "professors": [
+    {
+      "name": "Rakesh Kumar",
+      "position": "Professor",
+      "research_interests": null
+    },
+    {
+      "name": "Ranjitha Kumar",
+      "position": "Associate Professor",
+      "research_interests": null
+    },
+    {
+      "name": "Fan Lai",
+      "position": "Assistant Professor",
+      "research_interests": null
+    }
+  ]
+}
+
+[
+    {
+        "name": "H. Chad Lane",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Steven M. LaValle",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Duncan H. Lawrie",
+        "position": "Professor Emeritus",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Svetlana Lazebnik",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Kirill Levchenko",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Colleen M. Lewis",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Bo Li",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Yunzhu Li",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Ge Liu",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Assistant Professor (starting August 2024)",
+        "position": null,
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Hongye Liu",
+        "position": "Teaching Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Jane W.-S. Liu",
+        "position": "Professor Emerita",
+        "research_interests": "null"
+    },
+    {
+        "name": "Bertram Ludaescher",
+        "position": "Professor",
+        "research_interests": "Information Sciences"
+    }
+]
+
+[
+  {
+    "name": "Steven Lumetta",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Darko Marinov",
+    "position": "Professor and Director of Graduate Programs",
+    "research_interests": null
+  },
+  {
+    "name": "Kenton Guadron McHenry",
+    "position": "Research Assistant Professor, NCSA",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Livingston McPherson",
+        "position": "Teaching Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Ruta Mehta",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Charith Mendis",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+   {
+      "name":"Jose Meseguer",
+      "position":"Professor",
+      "research_interests":"null"
+   },
+   {
+      "name":"M. Dennis Mickunas",
+      "position":"Associate Professor Emeritus",
+      "research_interests":"null"
+   },
+   {
+      "name":"Olgica Milenkovic",
+      "position":"Professor, Electrical and Computer Engineering",
+      "research_interests":"null"
+   }
+]
+
+[
+  {
+    "name": "Andrew Miller",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Sasa Misailovic",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Sayan Mitra",
+    "position": "Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Radhika Mittal",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Sibin Mohan",
+        "position": "Adjunct Research Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Marco Morales Aguirre",
+        "position": "Teaching Associate Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "William (Billy) Moses",
+        "position": "Assistant Professor (starting January 2024)",
+        "research_interests": null
+    },
+
+    {
+        "name": "Klara Nahrstedt",
+        "position": "Grainger Distinguished Chair in Engineering",
+        "research_interests": null
+    },
+
+    {
+        "name": "Yee Man (Margaret) Ng",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+Here is the solution to create JSON objects for each professor using the provided text data:
+
+1. Professor 1:
+   Name: David M. Nicol
+   Position: Professor
+   Research Interests: null
+   
+   JSON object:
+   {
+       "name": "David M. Nicol",
+       "position": "Professor",
+       "research_interests": null
+   }
+   
+2. Professor 2:
+   Name: Michael Nowak
+   Position: Teaching Assistant Professor
+   Research Interests: null
+   
+   JSON object:
+   {
+       "name": "Michael Nowak",
+       "position": "Teaching Assistant Professor",
+       "research_interests": null
+   }
+   
+3. Professor 3:
+   Name: Idoia Ochoa
+   Position: Assistant Professor
+   Research Interests: null
+   
+   JSON object:
+   {
+       "name": "Idoia Ochoa",
+       "position": "Assistant Professor",
+       "research_interests": null
+   }
+
+[{
+  "name": "Luke Olson",
+  "position": "Professor",
+  "research_interests": "null"
+}, {
+  "name": "David Padua",
+  "position": "Donald Biggar Willett Professor Emeritus in Engineering",
+  "research_interests": "null"
+}, {
+  "name": "Aditya G. Parameswaran",
+  "position": "Adjunct Assistant Professor",
+  "research_interests": "null"
+}]
+
+[
+    {
+        "name": "Yongjoo Park",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Madhusudan Parthasarathy",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Sanjay Patel",
+        "position": "Professor",
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Hao Peng",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Jian Peng",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Leonard B. Pitt",
+        "position": "Professor Emeritus",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Manoj M. Prabhakaran",
+        "position": "Adjunct Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Maxim Raginsky",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research_interests": null
+    },
+    {
+        "name": "Lawrence Rauchwerger",
+        "position": "Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Devin H. Bailey",
+        "position": "Associate Professor",
+        "research_interests": null
+    }
+]
+
+Final JSON Output:
+
+[
+    {
+        "name": "Jim Rehg",
+        "position": "null",
+        "research_interests": "null"
+    },
+    {
+        "name": "John F. Reid",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Edward M. Reingold",
+        "position": "Research Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Professor Emeritus",
+        "position": "null",
+        "research_interests": "null"
+    }
+]
+
+Here is an example of how the JSON objects can be created for each professor using the provided text data:
+
+1. Professor Talia Ringer:
+{
+    "name": "Talia Ringer",
+    "position": "Assistant Professor",
+    "research_interests": "null"
+}
+
+2. Professor Gene E. Robinson:
+{
+    "name": "Gene E. Robinson",
+    "position": "Director, Institute for Genomic Biology",
+    "research_interests": "null"
+}
+
+These are just examples, and you should create similar JSON objects for the rest of the professors following the same steps outlined in the process.
+
+[
+  {
+    "name": "Arch D. Robison",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Pablo D. Robles Granda",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Grigore Rosu",
+    "position": "null",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Dan Roth",
+        "position": "Adjunct Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Romit Roy Choudhury",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Rob A. Rutenbar",
+        "position": "Adjunct Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Koustuv Saha",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Bruce R. Schatz",
+    "position": "Professor, Information Sciences",
+    "research_interests": null
+  },
+  {
+    "name": "Jule Schatz",
+    "position": "Teaching Assistant Professor",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Alexander Schwing",
+    "position": "Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Lui Sha",
+    "position": "Donald B. Gillies Chair in Computer Science",
+    "research_interests": null
+  },
+  {
+    "name": "Eric Gene Shaffer",
+    "position": "Teaching Associate Professor and Associate Director of Undergraduate Programs",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Mariana Silva",
+    "position": "Teaching Associate Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Gagandeep Singh",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Makrand SINHA",
+    "position": "Assistant Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Saurabh Sinha",
+        "position": "Adjunct Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Robert D. Skeel",
+        "position": "Professor Emeritus",
+        "research_interests": "null"
+    },
+    {
+        "name": "Paris Smaragdis",
+        "position": "Professor and Associate Head for Infrastructure and Operations",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Marc Snir",
+    "position": "Research Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Michael Faiman",
+    "position": "Professor Emeritus",
+    "research_interests": "null"
+  },
+  {
+    "name": "Brad R. Solomon",
+    "position": "Teaching Assistant Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Edgar Solomonik",
+    "position": "Associate Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Elahe Soltanaghai",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Rayadurgam Srikant",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research_interests": null
+    },
+    {
+        "name": "Sarah Gimbert Sterman",
+        "position": "Resarch Assistant Professor",
+        "research_interests": null
+    }
+]
+
+[
+    {
+        "name": "Sharifa Sultana",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Jimeng Sun",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Hari Sundaram",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Ruby Tahboub",
+        "position": "Teaching Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Matus Jan Telgarsky",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Michael Benjamin Tissenbaum",
+        "position": "Assistant Professor, Curriculum & Instruction",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Hanghang Tong",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Associate Professor Josep Torrellas",
+    "position": "Associate Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Saburo Muroga",
+    "position": "null",
+    "research_interests": "null"
+  },
+  {
+    "name": "Professor Gokhan Tur",
+    "position": "Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Research Professor (starting January 2024)",
+    "position": "null",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Michael Twidale",
+    "position": "Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Luther Tychonievich",
+    "position": "Teaching Associate Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Lav R. Varshney",
+    "position": "Associate Professor, Electrical and Computer Engineering",
+    "research_interests": "null"
+  }
+]
+
+[
+    {
+        "name": "Deepak Vasisht",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Pramod Viswanath",
+        "position": "Professor, Electrical and Computer Engineering",
+        "research_interests": null
+    },
+    {
+        "name": "Mahesh Viswanathan",
+        "position": "Professor and Associate Head for Academics",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Gang Wang",
+    "position": null,
+    "research_interests": null
+  },
+  {
+    "name": "Shaowen Wang",
+    "position": "Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Shenlong Wang",
+    "position": "Assistant Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Yang Wang",
+        "position": "Associate Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Yuxiong Wang",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Tandy Warnow",
+        "position": "Grainger Distinguished Chair in Engineering and Associate Head for Research and Faculty Development",
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Tiffani L. Williams",
+    "position": "Teaching Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Marianne S. Winslett",
+    "position": "Professor Emerita",
+    "research_interests": null
+  },
+  {
+    "name": "Michael Joseph Woodley",
+    "position": "Clinical Assistant Professor",
+    "research_interests": null
+  }
+]
+
+[
+    {
+        "name": "Abigail Wooldridge",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Tianyin Xu",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Jiaxuan You",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "Assistant Professor",
+        "position": null,
+        "research_interests": null
+    },
+    {
+        "name": "(starting August 2024)",
+        "position": null,
+        "research_interests": null
+    }
+]
+
+[
+  {
+    "name": "Wenzhen Yuan",
+    "position": null,
+    "research_interests": null
+  },
+  {
+    "name": "ChengXiang Zhai",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Donald Biggar",
+    "position": "Willett Professor in Engineering",
+    "research_interests": null
+  },
+  {
+    "name": "Huan Zhang",
+    "position": "he/him/his Assistant Professor",
+    "research_interests": null
+  }
+]
+
+[
+  {
+    "name": "Lingming Zhang",
+    "position": "Associate Professor",
+    "research_interests": "null"
+  },
+  {
+    "name": "Minjia Zhang",
+    "position": "Assistant Professor (starting January 2024)",
+    "research_interests": "null"
+  },
+  {
+    "name": "Tong Zhang",
+    "position": "Adjunct Professor",
+    "research_interests": "null"
+  }
+]
+
+[
+  {
+    "name": "Han Zhao",
+    "position": "Assistant Professor",
+    "research_interests": null
+  },
+  {
+    "name": "Craig Zilles",
+    "position": null,
+    "research_interests": null
+  },
+  {
+    "name": "Professor and Severns Faculty Scholar",
+    "position": null,
+    "research_interests": null
+  }
+]
+

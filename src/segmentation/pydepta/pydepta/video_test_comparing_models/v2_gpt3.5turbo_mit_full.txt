@@ -1,0 +1,647 @@
+[
+    {
+        "name": "Devin H. Bailey",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Professor Name",
+        "position": "null",
+        "research_interests": "Research Interests"
+    },
+    {
+        "name": "Another Professor",
+        "position": "Professor",
+        "research_interests": "Machine Learning and Data Science"
+    },
+    ...
+]
+
+[
+    {
+        "name": "Devin H. Bailey",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "John Doe",
+        "position": "Professor",
+        "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices"
+    },
+    {
+        "name": "Jane Smith",
+        "position": "Assistant Professor",
+        "research_interests": "Human-Computer Interaction"
+    },
+    {
+        "name": "Mark Johnson",
+        "position": "null",
+        "research_interests": "Nanoscale Materials, Devices, and Systems"
+    },
+    {
+        "name": "Sarah Lee",
+        "position": "null",
+        "research_interests": "Optics + Photonics"
+    }
+]
+
+[
+{
+"name": "Devin H. Bailey",
+"position": "Associate Professor",
+"research_interests": null
+},
+{
+"name": "John Smith",
+"position": null,
+"research_interests": "Optimization and Game Theory"
+},
+{
+"name": "Emily Johnson",
+"position": "Assistant Professor",
+"research_interests": "Quantum Computing, Communication, and Sensing"
+},
+{
+"name": "Michael Brown",
+"position": "Professor",
+"research_interests": "Robotics, Security and Cryptography"
+},
+{
+"name": "Sarah Williams",
+"position": null,
+"research_interests": "Signal Processing, Systems and Networking"
+},
+{
+"name": "David Lee",
+"position": "Associate Professor",
+"research_interests": "Systems Theory, Control, and Autonomy"
+},
+{
+"name": "Jennifer Davis",
+"position": "Professor",
+"research_interests": "Theory of Computation, Systems and Networking"
+}
+]
+
+[
+    {
+        "name": "Devin H. Bailey",
+        "position": "Associate Professor",
+        "research_interests": null
+    },
+    {
+        "name": "John C. Doe",
+        "position": "Professor",
+        "research_interests": "Machine Learning"
+    },
+    {
+        "name": "Jane E. Smith",
+        "position": null,
+        "research_interests": "Data Science"
+    },
+    {
+        "name": "Michael P. Johnson",
+        "position": "Assistant Professor",
+        "research_interests": "Artificial Intelligence"
+    }
+]
+
+[
+    {
+        "name": "Devin H. Bailey",
+        "position": "Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Rising Stars in EECS",
+        "position": "null",
+        "research_interests": "null"
+    },
+    {
+        "name": "Graduate Application Assistance Program (GAAP)",
+        "position": "null",
+        "research_interests": "null"
+    },
+    {
+        "name": "MIT Summer Research Program (MSRP)",
+        "position": "null",
+        "research_interests": "null"
+    },
+    {
+        "name": "Sloan-MIT University Center for Exemplary Mentoring (UCEM)",
+        "position": "null",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Anant Agarwal",
+        "position": "CEO, edX; Professor of EECS",
+        "research_interests": "null"
+    },
+    {
+        "name": "Pulkit Agrawal",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Mohammad Alizadeh",
+        "position": "Associate Professor, Industry Officer, Director, 6-A MEng Thesis Program",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Saman Amarasinghe",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Arvind",
+        "position": "Charles W. And Jennifer C. Johnson Professor in Electrical Engineering and Computer Science",
+        "research_interests": "null"
+    },
+    {
+        "name": "Hari Balakrishnan",
+        "position": "Fujitsu Professor in Electrical Engineering and Computer Science",
+        "research_interests": "null"
+    }
+]
+
+Here is an example of creating JSON objects for each professor using the provided text data:
+
+JSON object for Adam Belay:
+{
+    "name": "Adam Belay",
+    "position": "Associate Professor",
+    "research_interests": null
+}
+
+JSON object for Robert Berwick:
+{
+    "name": "Robert Berwick",
+    "position": "Professor of CS and Engineering and Computational Linguistics",
+    "research_interests": "null"
+}
+
+JSON object for Michael Carbin:
+{
+    "name": "Michael Carbin",
+    "position": "Associate Professor",
+    "research_interests": null
+}
+
+You can continue this process for the rest of the professors following the same steps. The final JSON output should be a JSON array containing all the individual JSON objects without any additional nesting.
+
+[
+    {
+        "name": "Anantha Chandrakasan",
+        "position": "Dean, MIT School of Engineering; Vannevar Bush Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Adam Chlipala",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Isaac Chuang",
+        "position": "Professor of EE",
+        "research_interests": "null"
+    }
+]
+
+[
+  {
+    "name": "Henry Corrigan-Gibbs",
+    "position": "Douglas Ross (1954) Career Development Professor of Software Technology, Assistant Professor",
+    "research_interests": "Security and Cryptography Systems and Networking"
+  },
+  {
+    "name": "Constantinos Daskalakis",
+    "position": "Armen Avanessians (1982) Professor",
+    "research_interests": "AI and Society AI for Healthcare and Life Sciences Optimization and Game Theory"
+  },
+  {
+    "name": "Christina Delimitrou",
+    "position": "Associate Professor",
+    "research_interests": "Computer Architecture"
+  }
+]
+
+[
+    {
+        "name": "Erik Demaine",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Srini Devadas",
+        "position": "Edwin Sibley Webster Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Frederic Durand",
+        "position": "Amar Bose Professor of Computing",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Joel Emer",
+        "position": "Professor of Practice in EECS",
+        "research_interests": "null"
+    },
+    {
+        "name": "Mohsen Ghaffari",
+        "position": "Steven G. (1968) and Renee Finn Career Development Professor, Associate Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Manya Ghobadi",
+        "position": "Assistant Professor",
+        "research_interests": "null"
+    }
+]
+
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
+
+The first step is to extract the names from each list in the text data.
+
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+
+Next, we extract the second element for the position, using 'null' if it is missing.
+
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+
+Finally, we extract the third element for research interests, using 'null' if it is missing.
+
+Example:
+Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+
+For each professor, we create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'. We ensure that missing elements are replaced with 'null'.
+
+Finally, we combine these individual JSON objects into a single JSON array. The final output should be a clean JSON array without any additional nesting.
+
+Here's an example of a JSON object for 'Devin H. Bailey':
+{
+    "name": "Devin H. Bailey",
+    "position": "Associate Professor",
+    "research_interests": "null"
+}
+
+We repeat this process for the rest of the professors, following the same steps.
+
+[
+  {
+    "name": "John Guttag",
+    "position": "Dugald C. Jackson Professor in Electrical Engineering",
+    "research_interests": "AI for Healthcare and Life Sciences Biological and Medical Devices and Systems Graphics and Vision"
+  },
+  {
+    "name": "Song Han",
+    "position": "Associate Professor",
+    "research_interests": "Artificial Intelligence + Machine Learning Computer Architecture Integrated Circuits and Systems"
+  },
+  {
+    "name": "Sam Hopkins",
+    "position": "Jamieson Career Development Professor in Electrical Engineering and Computer Science; Assistant Professor",
+    "research_interests": "Theory of Computation"
+  }
+]
+
+Here is the JSON output for each professor based on the provided text data:
+
+1. JSON object for Daniel Huttenlocher:
+{
+  "name": "Daniel Huttenlocher",
+  "position": "Dean, MIT Stephen A. Schwarzman College of Computing; Henry Ellis Warren (1894) Professor",
+  "research_interests": "null"
+}
+
+2. JSON object for Piotr Indyk:
+{
+  "name": "Piotr Indyk",
+  "position": "Thomas D. and Virginia W. Cabot Professor",
+  "research_interests": "null"
+}
+
+3. JSON object for Daniel Jackson:
+{
+  "name": "Daniel Jackson",
+  "position": "Professor of CS and Engineering",
+  "research_interests": "null"
+}
+
+[
+    {
+        "name": "M. Frans Kaashoek",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "Charles A. Piper",
+        "position": "Professor",
+        "research_interests": "null"
+    },
+    {
+        "name": "David Karger",
+        "position": "Professor of CS and Engineering",
+        "research_interests": "null"
+    },
+    {
+        "name": "Dina Katabi",
+        "position": "Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Manolis Kellis",
+        "position": "Professor of CS",
+        "research_interests": "AI+D and CS"
+    },
+    {
+        "name": "Tim Kraska",
+        "position": "Associate Professor",
+        "research_interests": "CS and AI+D"
+    },
+    {
+        "name": "Butler Lampson",
+        "position": "Adjunct Professor of CS and Engineering",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Steven Leeb Emanuel E. Landsman",
+        "position": "Professor, [EE and CS]",
+        "research_interests": "null"
+    },
+    {
+        "name": "Charles Leiserson",
+        "position": "Edwin Sibley Webster Professor; [CS]",
+        "research_interests": "null"
+    },
+    {
+        "name": "Barbara Liskov",
+        "position": "Insitute Professor (post tenure)",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Kuikui Liu",
+        "position": "Assistant Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Nancy Lynch",
+        "position": "NEC Professor of Software Science and Engineering (Post-Tenure)",
+        "research_interests": "null"
+    },
+    {
+        "name": "Samuel Madden",
+        "position": "Distinguished College of Computing Professor",
+        "research_interests": "null"
+    }
+]
+
+[
+    {
+        "name": "Aleksander Mądry",
+        "position": "Cadence Design Systems Professor",
+        "research_interests": "AI and Society, Artificial Intelligence + Machine Learning, Theory of Computation"
+    },
+    {
+        "name": "Wojciech Matusik",
+        "position": "Professor of EECS",
+        "research_interests": "Artificial Intelligence + Machine Learning, Computational Fabrication and Manufacturing, Graphics and Vision"
+    },
+    {
+        "name": "Muriel Médard",
+        "position": "NEC Professor of Software Science and Engineering",
+        "research_interests": "Communications Systems, Electronic, Magnetic, Optical and Quantum Materials and Devices, Information Science and Systems"
+    }
+]
+
+{
+  "professors": [
+    {
+      "name": "Silvio Micali",
+      "position": "Ford Foundation Professor of Engineering",
+      "research_interests": "Security and Cryptography Theory of Computation"
+    },
+    {
+      "name": "Robert Miller",
+      "position": "Education Officer for Computer Science, Distinguished Professor in EECS",
+      "research_interests": "Human-Computer Interaction Programming Languages and Software Engineering"
+    },
+    {
+      "name": "Robert Morris",
+      "position": "Professor of CS and Engineering",
+      "research_interests": "Systems and Networking"
+    }
+  ]
+}
+
+[
+  {
+    "name": "Stefanie Mueller",
+    "position": "TIBCO Founders Professor, Associate Professor [CS and EE]",
+    "research_interests": "Computational Fabrication and Manufacturing"
+  },
+  {
+    "name": "Anand V Natarajan",
+    "position": "ITT Career Development Professor in Computer Technology, Assistant Professor, [CS]",
+    "research_interests": "Electronic, Magnetic, Optical and Quantum Materials and Devices"
+  },
+  {
+    "name": "Alan Oppenheim",
+    "position": "Ford Professor of Engineering (Post-Tenure), [EE and CS, AI+D]",
+    "research_interests": "Quantum Computing, Communication, and Sensing"
+  }
+]
+
+[
+  {
+    "name": "Asu Ozdaglar",
+    "position": "EECS Department Head; MIT Schwarzman College of Computing Deputy Dean of Academics; MathWorks Professor of EECS",
+    "research_interests": "AI and Society Artificial Intelligence + Machine Learning Optimization and Game Theory"
+  },
+  {
+    "name": "Jonathan Ragan-Kelley",
+    "position": "Associate Professor",
+    "research_interests": "Graphics and Vision Programming Languages and Software Engineering"
+  },
+  {
+    "name": "Manish Raghavan",
+    "position": "Drew Houston (2005) Career Development Professor, Assistant Professor / Shared Appointment in Sloan School of Management",
+    "research_interests": "AI and Society Artificial Intelligence + Machine Learning Optimization and Game Theory"
+  }
+]
+
+[
+  {
+    "name": "Martin Rinard",
+    "position": "Professor of CS and Engineering",
+    "research_interests": null
+  },
+  {
+    "name": "Ronald Rivest",
+    "position": "Institute Professor (Post-Tenure); Professor Post-Tenure of Computer Science and Engineering",
+    "research_interests": null
+  },
+  {
+    "name": "Ronitt Rubinfeld",
+    "position": "Edwin Sibley Webster Professor",
+    "research_interests": null
+  }
+]
+
+{
+    "professors": [
+        {
+            "name": "Daniela Rus",
+            "position": "Director, CSAIL; MIT Schwarzman College of Computing Deputy Dean of Research; Andrew (1956) and Erna Viterbi Professor, [AI+D and CS]",
+            "research_interests": "null"
+        },
+        {
+            "name": "Daniel Sanchez",
+            "position": "Professor of EECS, [CS and EE]",
+            "research_interests": "null"
+        },
+        {
+            "name": "Arvind Satyanarayan",
+            "position": "Associate Professor, [CS]",
+            "research_interests": "null"
+        }
+    ]
+}
+
+[
+    {
+        "name": "Nir Shavit",
+        "position": "Professor of EECS",
+        "research_interests": null
+    },
+    {
+        "name": "Julian Shun",
+        "position": "Associate Professor",
+        "research_interests": null
+    },
+    {
+        "name": "Armando Solar-Lezama",
+        "position": "Distinguished Professor of Computing, MIT Schwarzman College of Computing; Professor of EECS",
+        "research_interests": null
+    }
+]
+
+[
+   {
+      "name":"Justin Solomon",
+      "position":"Associate Professor",
+      "research_interests":"null"
+   },
+   {
+      "name":"Michael Stonebraker",
+      "position":"Adjunct Professor",
+      "research_interests":"null"
+   },
+   {
+      "name":"Gerald Sussman",
+      "position":"Panasonic Professor",
+      "research_interests":"null"
+   }
+]
+
+{
+  "professors": [
+    {
+      "name": "Vivienne Sze",
+      "position": "Associate Professor",
+      "research_interests": "null"
+    },
+    {
+      "name": "Peter Szolovits",
+      "position": "Professor of Computer Science and Engineering",
+      "research_interests": "null"
+    },
+    {
+      "name": "Vinod Vaikuntanathan",
+      "position": "Professor",
+      "research_interests": "null"
+    }
+  ]
+}
+
+[
+   {
+      "name":"Andrew Wang Lecturer",
+      "position":"",
+      "research_interests":"null"
+   },
+   {
+      "name":"Ryan Williams Professor of EECS",
+      "position":"",
+      "research_interests":"null"
+   },
+   {
+      "name":"Virginia Vassilevska Williams Professor",
+      "position":"",
+      "research_interests":"null"
+   }
+]
+
+The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'. If any of these elements are missing (position or research interests), the value should be set to 'null'. Pronouns such as he, they, or her should not be added anywhere to the JSON object. 
+
+To accomplish this, we will follow a step-by-step process:
+
+Step 1: Extracting Names
+- Extract the first element from each list for the name.
+
+Step 2: Extracting Positions
+- Extract the second element for the position, using 'null' if it is missing.
+
+Step 3: Extracting Research Interests
+- Extract the third element for research interests, using 'null' if it is missing.
+
+Creating Individual JSON Objects:
+- For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+- Replace missing elements with 'null'.
+
+Building the Final JSON Output:
+- Combine these individual JSON objects into a single JSON array.
+- The final output should be a clean JSON array without any additional nesting.
+
+Let's go through an example:
+
+Given the data: ['Devin H. Bailey', None, 'Associate Professor']
+
+Step 1: Extracting Names
+- The name is 'Devin H. Bailey'.
+
+Step 2: Extracting Positions
+- The position is 'Associate Professor'.
+
+Step 3: Extracting Research Interests
+- The research interests are missing, so the value will be set to 'null'.
+
+Creating Individual JSON Object:
+The JSON object for 'Devin H. Bailey' will be:
+{
+    "name": "Devin H. Bailey",
+    "position": "Associate Professor",
+    "research_interests": "null"
+}
+
+Continue this process for the rest of the professors, following the same steps. Finally, combine these individual JSON objects into a single JSON array, resulting in the desired output.
+

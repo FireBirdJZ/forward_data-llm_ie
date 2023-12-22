@@ -197,14 +197,66 @@ class FacultyDataHarvester:
                     #     unwarranted layers (like a "professors" key) are added to the final JSON output.
                     #     """ + f"-Text: {combined_records_str}"
 
+                     # COT PromptV2
+                    # prompt = f"Text to Process: {combined_records_str}\n"+"""
+                    # Understanding the Task:
+                    # The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
 
-                    # COT PromptV2
+                    # Analyzing the Text:
+                    # The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+                    # Handling Missing Information:
+                    # If any of these elements are missing (position or research interests), the value should be set to 'null'.
+
+                    # Watch Out For:
+                    # pronouns such as he, they, or her. Don't add these anywhere to the JSON object.
+
+                    # Step-by-Step Process with Examples:
+
+                    # Step 1: Extracting Names
+
+                    # Extract the first element from each list for the name.
+                    # Example:
+                    # Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+                    # Step 2: Extracting Positions
+
+                    # Extract the second element for the position, using 'null' if it is missing.
+                    # Example:
+                    # Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+                    # Step 3: Extracting Research Interests
+
+                    # Extract the third element for research interests, using 'null' if it is missing.
+                    # Example:
+                    # Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+                    # Creating Individual JSON Objects:
+
+                    # For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
+                    # Ensure to replace missing elements with 'null'.
+                    # Building the Final JSON Output:
+
+                    # Combine these individual JSON objects into a single JSON array.
+                    # The final output should be a clean JSON array without any additional nesting.
+                    # Final Example:
+
+                    # For 'Devin H. Bailey', the JSON object will be:
+                    # {
+                    #     "name": "Devin H. Bailey",
+                    #     "position": Associate Professor,
+                    #     "research_interests": "null"
+                    # }
+                    # Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
+                    # """
+
+
+                    # COT PromptV2.2
                     prompt = f"Text to Process: {combined_records_str}\n"+"""
                     Understanding the Task:
                     The task is to create JSON objects for each professor using the provided text data. Each JSON object should include keys for 'name', 'position', and 'research_interests'.
 
                     Analyzing the Text:
                     The provided text data contains details about professors in list format. The first element is the professor's name, the second element (if present) is their position, and the third element (if present) is their research interests.
+
+                    Note: Research interests are often specific and technical, like 'Computer Architecture', 'Multicore Processors & Cloud Computing', or 'Artificial Intelligence + Machine Learning'. Ensure to capture these accurately.
 
                     Handling Missing Information:
                     If any of these elements are missing (position or research interests), the value should be set to 'null'.
@@ -219,16 +271,20 @@ class FacultyDataHarvester:
                     Extract the first element from each list for the name.
                     Example:
                     Given ['Devin H. Bailey', None, 'Associate Professor'], the 'name' key will be "Devin H. Bailey".
+                    Given ['Jeff Hamming', 'Armen Wolak (1965) Professor', 'jham@csail.mit.edu', '(617) 103-9122', 'Office: 12-345', 'Algorithms', 'AI for Healthcare', 'Game Theory'] the 'name' key will be Jeff Hamming. Don't get confused by professor positions that look like names such as Armen Wolak. 
                     Step 2: Extracting Positions
 
                     Extract the second element for the position, using 'null' if it is missing.
                     Example:
                     Given ['Devin H. Bailey', None, 'Associate Professor'], the 'position' key will be 'Associate Professor'.
+                    Given ['Jeff Hamming', 'Armen Wolak (1965) Professor', 'jham@csail.mit.edu', '(617) 103-9122', 'Office: 12-345', 'Algorithms', 'AI for Healthcare', 'Game Theory'] the 'position' key will be 'Armen Wolak (1965) Professor'.
                     Step 3: Extracting Research Interests
 
-                    Extract the third element for research interests, using 'null' if it is missing.
+                    Extract the third element for research interests, using 'null' if it is missing. Ensure to capture all available information, resorting to 'null' only when certain information is genuinely missing.
                     Example:
                     Given ['Devin H. Bailey', None, 'Associate Professor'], the 'research_interests' key will be 'null' since the research interests are missing.
+                    Given ['Jeff Hamming', 'Armen Wolak (1965) Professor', 'jham@csail.mit.edu', '(617) 103-9122', 'Office: 12-345', 'Algorithms', 'AI for Healthcare', 'Game Theory'] the 'research_interests' key will be 'Algorithms, AI for Healthcare, Game Theory'. 
+
                     Creating Individual JSON Objects:
 
                     For each professor, create a JSON object (dictionary in Python) with the keys 'name', 'position', and 'research_interests'.
@@ -245,6 +301,12 @@ class FacultyDataHarvester:
                         "position": Associate Professor,
                         "research_interests": "null"
                     }
+                    For 'Jeff Hamming', the JSON object will be:
+                    {
+                        "name": "Jeff Hamming",
+                        "position": "Armen Wolak (1965) Professor",
+                        "research_interests": "Algorithms, AI for Healthcare, Game Theory"
+                    } 
                     Continue this process for Rest of Professors, following the same steps. Don't write the Final Example JSON Object.
                     """
                     answer = chatGpt(prompt)
